@@ -1,0 +1,145 @@
+import {
+	Avatar,
+	Box,
+	Button,
+	Flex,
+	HStack,
+	Link,
+	Text,
+	Wrap,
+	WrapItem,
+} from "@chakra-ui/react";
+import React from "react";
+
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+
+export const Main = () => {
+	return (
+		<Box
+			height="100vh"
+			padding={["2.5rem", "3.5rem", "4.5rem", "2.5rem"]}
+			display="flex"
+		>
+			<Box
+				display="flex"
+				flexDirection="column"
+				justifyContent="space-evenly"
+				alignItems={["center", "center", "center", "flex-start"]}
+			>
+				<Box>
+					<Text
+						color="#fff"
+						textAlign={["center", "center", "center", "inherit"]}
+						fontSize={["1.5rem", "2rem", "1.7rem", "2rem"]}
+						fontFamily="Lato"
+						fontWeight="700"
+					>
+						<span style={{ color: "#EF3E07" }}>Hello,</span> I’m
+						<br />
+						Samuel Ogunleye.
+					</Text>
+
+					<Text
+						mt="1rem"
+						color="rgba(255, 255, 255, 0.8)"
+						textAlign={["center", "center", "center", "justify"]}
+						fontFamily="Lato"
+						fontSize={["1rem", "1.1rem", "1.1rem", "1rem"]}
+						fontWeight="300"
+						width={["100%", "100%", "100%", "90%"]}
+						lineHeight="1.8"
+					>
+						I am a Frontend Developer who is passionate about solving problems
+						digitally by leveraging on best development tools and materials to
+						deliver pixel perfect and blazing fast interfaces.
+					</Text>
+				</Box>
+
+				<Box>
+					<Button
+						textDecoration="uppercase"
+						variant="outline"
+						border="3px solid"
+						borderColor="#EF3E07"
+						boxShadow="none"
+						color="#EF3E07"
+						fontSize={["1rem", "1rem", "1rem", "1.2rem"]}
+						padding="0 2rem"
+						_hover={{ backgroundColor: "#EF3E07", color: "#fff" }}
+					>
+						Let's Talk
+					</Button>
+				</Box>
+
+				<Box>
+					<HStack>
+						<Box>
+							<Wrap>
+								<WrapItem>
+									<Avatar
+										name="Samuel Ogunleye"
+										src="https://bit.ly/dan-abramov"
+									/>
+								</WrapItem>
+							</Wrap>
+						</Box>
+
+						<Box>
+							<HStack>
+								<Link
+									href="https://github.com/Sproff"
+									isExternal
+									boxShadow="none"
+									marginRight="1rem"
+								>
+									<Flex alignItems="center" color="#fff">
+										<FaGithub
+											style={{
+												color: "rgba(255, 255, 255, 0.72)",
+												marginRight: ".3rem",
+											}}
+										/>
+										<Text>GitHub</Text>
+									</Flex>
+								</Link>
+
+								<Link
+									href="https://twitter.com/dev_sproff"
+									isExternal
+									boxShadow="none"
+									marginRight="1rem"
+								>
+									<Flex alignItems="center" color="#fff">
+										<FaTwitter
+											style={{
+												color: "rgba(255, 255, 255, 0.72)",
+												marginRight: ".3rem",
+											}}
+										/>
+										<Text>Twitter</Text>
+									</Flex>
+								</Link>
+
+								<Link
+									href="https://www.linkedin.com/in/samuel-ogunleye-a87493194/"
+									isExternal
+									boxShadow="none"
+								>
+									<Flex alignItems="center" color="#fff">
+										<FaLinkedin
+											style={{
+												color: "rgba(255, 255, 255, 0.72)",
+												marginRight: ".3rem",
+											}}
+										/>
+										<Text>LinkedIn</Text>
+									</Flex>
+								</Link>
+							</HStack>
+						</Box>
+					</HStack>
+				</Box>
+			</Box>
+		</Box>
+	);
+};

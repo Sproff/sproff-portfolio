@@ -16,9 +16,9 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 export const Main = () => {
 	return (
 		<Box
-			height={["80vh", "80vh", "100vh", "100vh"]}
+			height={["calc(100vh - 10%)", "calc(100vh - 10%)", "100vh", "100vh"]}
 			padding={["0", "0", "4.5rem", "2.5rem"]}
-			marginTop={["-4rem", "-4rem", "-4rem", "0"]}
+			// marginTop={["-4rem", "-4rem", "-4rem", "0"]}
 			display="flex"
 			w={["100%", "100%", "100%", "53%"]}
 		>

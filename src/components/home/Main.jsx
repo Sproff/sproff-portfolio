@@ -16,9 +16,9 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 export const Main = () => {
 	return (
 		<Box
-			height={["calc(100vh - 10%)", "calc(100vh - 10%)", "100vh", "100vh"]}
+			height={["80vh", "80vh", "100vh", "100vh"]}
 			padding={["0", "0", "4.5rem", "2.5rem"]}
-			// marginTop={["-4rem", "-4rem", "-4rem", "0"]}
+			marginTop={["-4rem", "-4rem", "-4rem", "0"]}
 			display="flex"
 			w={["100%", "100%", "100%", "53%"]}
 		>
@@ -74,9 +74,13 @@ export const Main = () => {
 				</Box>
 
 				<Box>
-					<HStack>
+					<HStack display={["block", "block", "block", "flex"]}>
 						<Box style={{ marginRight: "2rem" }}>
-							<Wrap>
+							<Wrap
+								display={["flex", "flex", "flex", "flex"]}
+								justifyContent="center"
+								my="1rem"
+							>
 								<WrapItem>
 									<Avatar
 										name="Samuel Ogunleye"

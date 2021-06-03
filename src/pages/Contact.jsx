@@ -18,6 +18,7 @@ export const Contact = () => {
 					columns={1}
 					spacing={4}
 					padding={["1.5rem", "1.5rem", "1.5rem", "3rem"]}
+					// mb={["4.3rem", "4.3rem", "4.3rem", "1rem"]}
 				>
 					<Box
 						bgColor="#09090A"

@@ -16,8 +16,8 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 export const Main = () => {
 	return (
 		<Box
-			height="100vh"
-			padding={["2.5rem", "3.5rem", "4.5rem", "2.5rem"]}
+			height={["80vh", "80vh", "100vh", "100vh"]}
+			padding={["0", "0", "4.5rem", "2.5rem"]}
 			display="flex"
 			w={["100%", "100%", "100%", "53%"]}
 		>
@@ -27,11 +27,11 @@ export const Main = () => {
 				justifyContent="space-evenly"
 				alignItems={["center", "center", "center", "flex-start"]}
 			>
-				<Box>
+				<Box px={[".95rem", "1rem", "0", "0"]}>
 					<Text
 						color="#fff"
 						textAlign={["center", "center", "center", "inherit"]}
-						fontSize={["1.5rem", "2rem", "1.7rem", "2rem"]}
+						fontSize={["2rem", "2rem", "1.7rem", "2rem"]}
 						fontFamily="Lato"
 						fontWeight="700"
 					>
@@ -87,7 +87,7 @@ export const Main = () => {
 
 						<Box>
 							<HStack>
-								<Box style={{ marginRight: "2rem" }}>
+								<Box style={{ marginRight: "1rem" }}>
 									<Link
 										href="https://github.com/Sproff"
 										isExternal
@@ -105,7 +105,7 @@ export const Main = () => {
 									</Link>
 								</Box>
 
-								<Box style={{ marginRight: "2rem" }}>
+								<Box style={{ marginRight: "1rem" }}>
 									<Link
 										href="https://twitter.com/dev_sproff"
 										isExternal

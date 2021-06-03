@@ -7,7 +7,7 @@ import { BackgroundImage } from "../components/common/BackgroundImage";
 
 export const MainLayout = ({ children, isMobile, isProject }) => {
 	return (
-		<Box w="100%" h="100vh" bgColor="#000" overflow="hidden">
+		<Box w="100%" height="100vh" bgColor="#000" overflow="hidden">
 			<Box>
 				<BackgroundImage />
 			</Box>

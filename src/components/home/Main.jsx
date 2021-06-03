@@ -18,7 +18,7 @@ export const Main = () => {
 		<Box
 			height={["80vh", "80vh", "100vh", "100vh"]}
 			padding={["0", "0", "4.5rem", "2.5rem"]}
-			marginTop="-2rem"
+			marginTop={["-4rem", "-4rem", "-4rem", "0"]}
 			display="flex"
 			w={["100%", "100%", "100%", "53%"]}
 		>

@@ -11,13 +11,14 @@ export const MobileNavBar = () => {
 			<HStack
 				justifyContent="space-evenly"
 				display={["flex", "flex", "flex", "none"]}
-				position="absolute"
+				position="fixed"
 				bottom="0"
 				height="10%"
 				width="100%"
 				bgColor="#09090A"
-				zIndex="99"
-				paddingTop=".2rem"
+				zIndex="3"
+				padding="2.3rem 0 2rem 0"
+				borderTop="1px solid rgba(255, 255, 255, 0.3)"
 			>
 				<NavLink exact to="/" activeClassName="selected">
 					<Box cursor="pointer">
@@ -41,7 +42,7 @@ export const MobileNavBar = () => {
 					</Box>
 				</NavLink>
 
-				<NavLink exact to="/projects" activeClassName="selected">
+				<NavLink to="/projects" activeClassName="selected">
 					<Box cursor="pointer">
 						<Box
 							className="active_border"

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { ChakraProvider } from "@chakra-ui/react";
 import {
 	BrowserRouter as Router,
@@ -32,7 +32,7 @@ export function useMediaQuery(query) {
 }
 
 function Routes() {
-	const isPageWide = useMediaQuery("(max-width: 1023px)");
+	const isPageWide = useMediaQuery("(max-width: 992px)");
 
 	return (
 		<Router>
@@ -44,6 +44,9 @@ function Routes() {
 					<Route path="/resume">
 						<Resume />
 					</Route>
+					{/* <Route path="/projects">
+						<Projects />
+					</Route> */}
 
 					{isPageWide ? (
 						<Route path="/projects">
@@ -56,11 +59,6 @@ function Routes() {
 							<Redirect from="/projects" to="/" />
 						</Route>
 					)}
-
-					{/* <Route path="/">
-						<Home />
-						<Redirect from="/projects" to="/" />
-					</Route> */}
 
 					<Route exact path="/">
 						<Home />

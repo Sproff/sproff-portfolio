@@ -19,6 +19,7 @@ export const Main = () => {
 			height="100vh"
 			padding={["2.5rem", "3.5rem", "4.5rem", "2.5rem"]}
 			display="flex"
+			w={["100%", "100%", "100%", "53%"]}
 		>
 			<Box
 				display="flex"
@@ -73,12 +74,12 @@ export const Main = () => {
 
 				<Box>
 					<HStack>
-						<Box>
+						<Box style={{ marginRight: "2rem" }}>
 							<Wrap>
 								<WrapItem>
 									<Avatar
 										name="Samuel Ogunleye"
-										src="https://bit.ly/dan-abramov"
+										src="https://res.cloudinary.com/sproff/image/upload/v1622707029/Sproff/sam_dkzdkm.jpg"
 									/>
 								</WrapItem>
 							</Wrap>
@@ -86,55 +87,59 @@ export const Main = () => {
 
 						<Box>
 							<HStack>
-								<Link
-									href="https://github.com/Sproff"
-									isExternal
-									boxShadow="none"
-									marginRight="1rem"
-								>
-									<Flex alignItems="center" color="#fff">
-										<FaGithub
-											style={{
-												color: "rgba(255, 255, 255, 0.72)",
-												marginRight: ".3rem",
-											}}
-										/>
-										<Text>GitHub</Text>
-									</Flex>
-								</Link>
+								<Box style={{ marginRight: "2rem" }}>
+									<Link
+										href="https://github.com/Sproff"
+										isExternal
+										boxShadow="none"
+									>
+										<Flex alignItems="center" color="#fff">
+											<FaGithub
+												style={{
+													color: "rgba(255, 255, 255, 0.72)",
+													marginRight: ".3rem",
+												}}
+											/>
+											<Text>GitHub</Text>
+										</Flex>
+									</Link>
+								</Box>
 
-								<Link
-									href="https://twitter.com/dev_sproff"
-									isExternal
-									boxShadow="none"
-									marginRight="1rem"
-								>
-									<Flex alignItems="center" color="#fff">
-										<FaTwitter
-											style={{
-												color: "rgba(255, 255, 255, 0.72)",
-												marginRight: ".3rem",
-											}}
-										/>
-										<Text>Twitter</Text>
-									</Flex>
-								</Link>
+								<Box style={{ marginRight: "2rem" }}>
+									<Link
+										href="https://twitter.com/dev_sproff"
+										isExternal
+										boxShadow="none"
+									>
+										<Flex alignItems="center" color="#fff">
+											<FaTwitter
+												style={{
+													color: "rgba(255, 255, 255, 0.72)",
+													marginRight: ".3rem",
+												}}
+											/>
+											<Text>Twitter</Text>
+										</Flex>
+									</Link>
+								</Box>
 
-								<Link
-									href="https://www.linkedin.com/in/samuel-ogunleye-a87493194/"
-									isExternal
-									boxShadow="none"
-								>
-									<Flex alignItems="center" color="#fff">
-										<FaLinkedin
-											style={{
-												color: "rgba(255, 255, 255, 0.72)",
-												marginRight: ".3rem",
-											}}
-										/>
-										<Text>LinkedIn</Text>
-									</Flex>
-								</Link>
+								<Box>
+									<Link
+										href="https://www.linkedin.com/in/samuel-ogunleye-a87493194/"
+										isExternal
+										boxShadow="none"
+									>
+										<Flex alignItems="center" color="#fff">
+											<FaLinkedin
+												style={{
+													color: "rgba(255, 255, 255, 0.72)",
+													marginRight: ".3rem",
+												}}
+											/>
+											<Text>LinkedIn</Text>
+										</Flex>
+									</Link>
+								</Box>
 							</HStack>
 						</Box>
 					</HStack>

@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 
 import { FaFolderOpen, FaHome } from "react-icons/fa";
 import { BsFillChatDotsFill } from "react-icons/bs";
+import { GoProject } from "react-icons/go";
 
 export const MobileNavBar = () => {
 	return (
@@ -24,9 +25,11 @@ export const MobileNavBar = () => {
 					<Box cursor="pointer">
 						<Box
 							className="active_border"
-							border="3px solid rgba(255, 255, 255, 0.3)"
+							// border="3px solid rgba(255, 255, 255, 0.3)"
 							borderRadius="8px"
 							p=".3rem .5rem"
+							display="flex"
+							justifyContent="center"
 							marginBottom=".2rem"
 						>
 							<FaHome />
@@ -46,12 +49,14 @@ export const MobileNavBar = () => {
 					<Box cursor="pointer">
 						<Box
 							className="active_border"
-							border="3px solid rgba(255, 255, 255, 0.3)"
+							// border="3px solid rgba(255, 255, 255, 0.3)"
 							borderRadius="8px"
 							p=".3rem .5rem"
+							display="flex"
+							justifyContent="center"
 							marginBottom=".2rem"
 						>
-							<FaHome />
+							<GoProject />
 						</Box>
 						<Text
 							fontSize=".5rem"
@@ -68,9 +73,11 @@ export const MobileNavBar = () => {
 					<Box cursor="pointer" position="relative">
 						<Box
 							className="active_border"
-							border="3px solid rgba(255, 255, 255, 0.3)"
+							// border="3px solid rgba(255, 255, 255, 0.3)"
 							borderRadius="8px"
 							p=".3rem .5rem"
+							display="flex"
+							justifyContent="center"
 							marginBottom=".2rem"
 						>
 							<FaFolderOpen />
@@ -90,9 +97,11 @@ export const MobileNavBar = () => {
 					<Box cursor="pointer" position="relative">
 						<Box
 							className="active_border"
-							border="3px solid rgba(255, 255, 255, 0.3)"
+							// border="3px solid rgba(255, 255, 255, 0.3)"
 							borderRadius="8px"
 							p=".3rem .5rem"
+							display="flex"
+							justifyContent="center"
 							marginBottom=".2rem"
 						>
 							<BsFillChatDotsFill />

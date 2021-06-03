@@ -17,12 +17,6 @@ import { MobileNavBar } from "../../layouts/MobileNavBar";
 export const Projects = () => {
 	return (
 		<Box w="100%">
-			{/* <Box w="100%">
-				<BackgroundImage
-					display={["block", "block", "block", "block", "none"]}
-				/>
-			</Box> */}
-
 			<Box>
 				<MobileNavBar />
 			</Box>

@@ -18,6 +18,7 @@ export const Main = () => {
 		<Box
 			height={["80vh", "80vh", "100vh", "100vh"]}
 			padding={["0", "0", "4.5rem", "2.5rem"]}
+			marginTop="-2rem"
 			display="flex"
 			w={["100%", "100%", "100%", "53%"]}
 		>
@@ -47,7 +48,7 @@ export const Main = () => {
 						fontFamily="Lato"
 						fontSize={["1rem", "1.1rem", "1.1rem", "1rem"]}
 						fontWeight="300"
-						width={["100%", "100%", "100%", "90%"]}
+						width={["100%", "100%", "100%", "100%"]}
 						lineHeight="1.8"
 					>
 						I am a Frontend Developer who is passionate about solving problems

@@ -28,7 +28,7 @@ export const Projects = () => {
 									key={project.id}
 									bgColor="#09090A"
 									color="#fff"
-									fontFamily="Lato"
+									fontFamily="Space Grotesk"
 									borderRadius="4px"
 									height="264px"
 									width="100%"
@@ -41,14 +41,14 @@ export const Projects = () => {
 									<Box>
 										<Text
 											color="rgba(255, 255, 255, 0.6)"
-											fontWeight="900"
+											fontWeight="700"
 											fontSize="1.05rem"
 											textTransform="uppercase"
 										>
 											{project.title}
 										</Text>
 										<Text
-											fontSize=".85rem"
+											fontSize=".9rem"
 											lineHeight="1.8"
 											color="rgba(255, 255, 255, 0.6)"
 											fontWeight="300"
@@ -57,7 +57,7 @@ export const Projects = () => {
 										</Text>
 										<br />
 										<Text
-											fontSize="1rem"
+											fontSize=".95rem"
 											lineHeight="1.8"
 											color="rgba(255, 255, 255, 0.6)"
 											fontWeight="300"

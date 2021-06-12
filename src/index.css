@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;600;700&display=swap");
 
 * {
 	margin-inline-start: 0 !important;
@@ -7,7 +7,7 @@
 }
 
 body {
-	font-family: "Lato";
+	font-family: "Space Grotesk", sans-serif;
 }
 
 .selected {

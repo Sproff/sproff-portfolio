@@ -21,7 +21,7 @@ export const Main = () => {
 			padding={["0", "0", "0 4.5rem", "0 2.5rem"]}
 			// marginTop={["-4rem", "-4rem", "-4rem", "0"]}
 			display="flex"
-			w={["100%", "100%", "100%", "53%"]}
+			w={["100%", "100%", "100%", "80%"]}
 		>
 			<Box
 				display="flex"
@@ -33,8 +33,8 @@ export const Main = () => {
 					<Text
 						color="rgba(255, 255, 255, 0.8)"
 						textAlign={["center", "center", "center", "inherit"]}
+						fontFamily="Space Grotesk"
 						fontSize={["2rem", "2rem", "1.7rem", "2rem"]}
-						fontFamily="Lato"
 						fontWeight="700"
 					>
 						<span style={{ color: "#EF3E07" }}>Hello,</span> I’m
@@ -45,12 +45,12 @@ export const Main = () => {
 					<Text
 						mt="1rem"
 						color="rgba(255, 255, 255, 0.8)"
-						textAlign={["center", "center", "center", "justify"]}
-						fontFamily="Lato"
+						textAlign={["center", "center", "center", "inherit"]}
+						fontFamily="Space Grotesk"
 						fontSize={["1rem", "1.1rem", "1.1rem", "1rem"]}
 						fontWeight="300"
 						width={["100%", "100%", "100%", "100%"]}
-						lineHeight="2"
+						lineHeight="2.1"
 					>
 						I am a Frontend Developer who is passionate about solving problems
 						digitally by leveraging on best development tools and materials to
@@ -67,6 +67,7 @@ export const Main = () => {
 							borderColor="#EF3E07"
 							boxShadow="none"
 							color="#EF3E07"
+							fontFamily="Space Grotesk"
 							fontSize={["1rem", "1rem", "1rem", "1.2rem"]}
 							padding="0 2rem"
 							_active={{ backgroundColor: "#EF3E07" }}
@@ -115,7 +116,8 @@ export const Main = () => {
 								<Box style={{ marginRight: "1rem" }}>
 									<a
 										href="https://github.com/Sproff"
-										isExternal
+										target="_blank"
+										rel="noreferrer"
 										boxShadow="none"
 									>
 										<Flex alignItems="center" color="rgba(255, 255, 255, 0.8)">
@@ -125,7 +127,12 @@ export const Main = () => {
 													marginRight: ".3rem",
 												}}
 											/>
-											<Text>GitHub</Text>
+											<Text
+												fontFamily="Space Grotesk"
+												fontSize={["1rem", "1.1rem", "1.1rem", "1rem"]}
+											>
+												GitHub
+											</Text>
 										</Flex>
 									</a>
 								</Box>
@@ -133,7 +140,8 @@ export const Main = () => {
 								<Box style={{ marginRight: "1rem" }}>
 									<a
 										href="https://twitter.com/dev_sproff"
-										isExternal
+										target="_blank"
+										rel="noreferrer"
 										boxShadow="none"
 									>
 										<Flex alignItems="center" color="rgba(255, 255, 255, 0.8)">
@@ -143,7 +151,12 @@ export const Main = () => {
 													marginRight: ".3rem",
 												}}
 											/>
-											<Text>Twitter</Text>
+											<Text
+												fontFamily="Space Grotesk"
+												fontSize={["1rem", "1.1rem", "1.1rem", "1rem"]}
+											>
+												Twitter
+											</Text>
 										</Flex>
 									</a>
 								</Box>
@@ -151,7 +164,8 @@ export const Main = () => {
 								<Box>
 									<a
 										href="https://www.linkedin.com/in/samuel-ogunleye-a87493194/"
-										isExternal
+										target="_blank"
+										rel="noreferrer"
 										boxShadow="none"
 									>
 										<Flex alignItems="center" color="rgba(255, 255, 255, 0.8)">
@@ -161,7 +175,12 @@ export const Main = () => {
 													marginRight: ".3rem",
 												}}
 											/>
-											<Text>LinkedIn</Text>
+											<Text
+												fontFamily="Space Grotesk"
+												fontSize={["1rem", "1.1rem", "1.1rem", "1rem"]}
+											>
+												LinkedIn
+											</Text>
 										</Flex>
 									</a>
 								</Box>

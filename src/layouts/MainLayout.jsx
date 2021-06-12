@@ -25,7 +25,7 @@ export const MainLayout = ({ children, isMobile, isProject }) => {
 				</Box>
 				<Box
 					w={["100%", "100%", "100%", "41%"]}
-					zIndex="999999"
+					zIndex="2"
 					className={isMobile ? "isMobile" : ""}
 				>
 					<Main />

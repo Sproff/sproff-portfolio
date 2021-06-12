@@ -23,7 +23,7 @@ export const Contact = () => {
 					<Box
 						bgColor="#09090A"
 						color="#fff"
-						fontFamily="Lato"
+						fontFamily="Space Grotesk"
 						borderRadius="4px"
 						width="100%"
 						padding="1.5rem"

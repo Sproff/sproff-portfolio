@@ -17,7 +17,7 @@ export const MobileNavBar = () => {
 				height="12%"
 				width="100%"
 				bgColor="#000"
-				zIndex="3"
+				zIndex="999"
 				padding="1.5rem 0"
 				borderTop="1px solid rgba(255, 255, 255, 0.3)"
 			>
@@ -25,7 +25,6 @@ export const MobileNavBar = () => {
 					<Box cursor="pointer">
 						<Box
 							className="active_mobile_border"
-							// border="3px solid rgba(255, 255, 255, 0.3)"
 							borderRadius="8px"
 							p=".3rem .5rem"
 							display="flex"
@@ -35,6 +34,7 @@ export const MobileNavBar = () => {
 							<FaHome />
 						</Box>
 						<Text
+							fontFamily="Space Grotesk"
 							fontSize=".5rem"
 							textTransform="uppercase"
 							fontWeight="700"
@@ -49,7 +49,6 @@ export const MobileNavBar = () => {
 					<Box cursor="pointer">
 						<Box
 							className="active_mobile_border"
-							// border="3px solid rgba(255, 255, 255, 0.3)"
 							borderRadius="8px"
 							p=".3rem .5rem"
 							display="flex"
@@ -59,6 +58,7 @@ export const MobileNavBar = () => {
 							<GoProject />
 						</Box>
 						<Text
+							fontFamily="Space Grotesk"
 							fontSize=".5rem"
 							textTransform="uppercase"
 							fontWeight="700"
@@ -73,7 +73,6 @@ export const MobileNavBar = () => {
 					<Box cursor="pointer" position="relative">
 						<Box
 							className="active_mobile_border"
-							// border="3px solid rgba(255, 255, 255, 0.3)"
 							borderRadius="8px"
 							p=".3rem .5rem"
 							display="flex"
@@ -83,6 +82,7 @@ export const MobileNavBar = () => {
 							<FaFolderOpen />
 						</Box>
 						<Text
+							fontFamily="Space Grotesk"
 							fontSize=".5rem"
 							textTransform="uppercase"
 							fontWeight="700"
@@ -97,7 +97,6 @@ export const MobileNavBar = () => {
 					<Box cursor="pointer" position="relative">
 						<Box
 							className="active_mobile_border"
-							// border="3px solid rgba(255, 255, 255, 0.3)"
 							borderRadius="8px"
 							p=".3rem .5rem"
 							display="flex"
@@ -107,6 +106,7 @@ export const MobileNavBar = () => {
 							<BsFillChatDotsFill />
 						</Box>
 						<Text
+							fontFamily="Space Grotesk"
 							fontSize=".5rem"
 							textTransform="uppercase"
 							fontWeight="700"

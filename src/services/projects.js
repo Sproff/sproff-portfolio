@@ -52,7 +52,7 @@ export const projects = [
 		title: "Google DSC-FUOYE",
 		tools: "Html + Css + JS + Bootstrap",
 		description:
-			"A Google Developers program for university students to learn mobile and web development skills.",
+			"A platform for university students to learn mobile and web development skills.",
 		live_link: "https://dsc-fuoye.com",
 		github_link: "",
 		isPrivate: true,

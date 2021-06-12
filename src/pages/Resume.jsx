@@ -17,7 +17,7 @@ export const Resume = () => {
 					<Box
 						bgColor="#09090A"
 						color="#fff"
-						fontFamily="Lato"
+						fontFamily="Space Grotesk"
 						borderRadius="4px"
 						width="100%"
 						padding="1.5rem"
@@ -67,7 +67,7 @@ export const Resume = () => {
 							<br />
 							<Text
 								fontSize="1rem"
-								lineHeight="1.8"
+								lineHeight="2"
 								color="rgba(255, 255, 255, 0.5)"
 								fontWeight="300"
 							>
@@ -101,7 +101,7 @@ export const Resume = () => {
 							<Text
 								mt="1rem"
 								fontSize="1rem"
-								lineHeight="1.8"
+								lineHeight="2"
 								color="rgba(255, 255, 255, 0.5)"
 								fontWeight="300"
 							>
@@ -136,7 +136,7 @@ export const Resume = () => {
 										<Text
 											mt="1rem"
 											fontSize="1rem"
-											fontWeight="400"
+											fontWeight="600"
 											color="rgba(255, 255, 255, 0.8)"
 										>
 											{res.company.toUpperCase()} - <i>{res.role}</i>
@@ -153,7 +153,7 @@ export const Resume = () => {
 											color="rgba(255, 255, 255, 0.5)"
 											fontSize="1rem"
 											fontWeight="300"
-											lineHeight="1.8"
+											lineHeight="2"
 										>
 											{res.description}
 										</Text>
@@ -162,7 +162,7 @@ export const Resume = () => {
 											color="rgba(255, 255, 255, 0.5)"
 											fontSize="1rem"
 											fontWeight="300"
-											lineHeight="1.8"
+											lineHeight="2"
 										>
 											{res.achievements.map((achievement) => {
 												return (

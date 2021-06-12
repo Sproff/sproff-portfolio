@@ -4,7 +4,6 @@ import {
 	Button,
 	Flex,
 	HStack,
-	// Link,
 	Text,
 	Wrap,
 	WrapItem,
@@ -17,9 +16,7 @@ import { Link } from "react-router-dom";
 export const Main = () => {
 	return (
 		<Box
-			// height={["80vh", "80vh", "100vh", "100vh"]}
 			padding={["0 .1rem", "0", "0 4.5rem", "0 2.5rem"]}
-			// marginTop={["-4rem", "-4rem", "-4rem", "0"]}
 			display="flex"
 			w={["100%", "100%", "100%", "80%"]}
 		>
@@ -72,7 +69,10 @@ export const Main = () => {
 							padding="0 2rem"
 							_active={{ backgroundColor: "#EF3E07" }}
 							_focus={{ boxShadow: "none" }}
-							_hover={{ backgroundColor: "#EF3E07", color: "#fff" }}
+							_hover={{
+								backgroundColor: "#EF3E07",
+								color: "rgba(255, 255, 255, 0.8)",
+							}}
 						>
 							Let's Talk
 						</Button>
@@ -81,21 +81,6 @@ export const Main = () => {
 
 				<Box>
 					<HStack>
-						{/* <Box style={{ marginRight: "2rem" }}>
-							<Wrap
-								display={["flex", "flex", "flex", "flex"]}
-								justifyContent="center"
-								my="1rem"
-							>
-								<WrapItem>
-									<Avatar
-										name="Samuel Ogunleye"
-										src="https://res.cloudinary.com/sproff/image/upload/v1622707029/Sproff/sam_dkzdkm.jpg"
-									/>
-								</WrapItem>
-							</Wrap>
-						</Box> */}
-
 						<Box>
 							<HStack>
 								<Box style={{ marginRight: "2rem" }}>

@@ -17,7 +17,7 @@ export const Resume = () => {
 				>
 					<Box
 						bgColor="#09090A"
-						color="#fff"
+						color="rgba(255, 255, 255, 0.8)"
 						fontFamily="Space Grotesk"
 						borderRadius="4px"
 						width="100%"
@@ -27,7 +27,11 @@ export const Resume = () => {
 						<Box>
 							<Box display="flex" justifyContent="space-between">
 								<Box>
-									<Text color="#fff" fontWeight="900" fontSize="2rem">
+									<Text
+										color="rgba(255, 255, 255, 0.8)"
+										fontWeight="900"
+										fontSize="2rem"
+									>
 										Samuel Ogunleye
 									</Text>
 									<Text
@@ -56,7 +60,7 @@ export const Resume = () => {
 										>
 											<BiDownload
 												style={{
-													color: "rgba(255, 255, 255, 0.72)",
+													color: "rgba(255, 255, 255, 0.8)",
 													marginRight: ".3rem",
 												}}
 											/>

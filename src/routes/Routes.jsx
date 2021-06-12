@@ -44,14 +44,10 @@ function Routes() {
 					<Route path="/resume">
 						<Resume />
 					</Route>
-					{/* <Route path="/projects">
-						<Projects />
-					</Route> */}
 
 					{isPageWide ? (
 						<Route path="/projects">
 							<Projects />
-							{/* <Redirect from="/projects" to="/" /> */}
 						</Route>
 					) : (
 						<Route path="/">

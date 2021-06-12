@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Image } from "@chakra-ui/react";
 
-import bgImg from "../../assets/images/bg_img_new.png";
+import bgImg from "../../assets/images/bg_img.png";
 
 export const BackgroundImage = () => {
 	return (

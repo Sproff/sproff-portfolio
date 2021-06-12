@@ -18,11 +18,10 @@ export const Contact = () => {
 					columns={1}
 					spacing={4}
 					padding={["1.5rem", "1.5rem", "1.5rem", "3rem"]}
-					// mb={["4.3rem", "4.3rem", "4.3rem", "1rem"]}
 				>
 					<Box
 						bgColor="#09090A"
-						color="#fff"
+						color="rgba(255, 255, 255, 0.8)"
 						fontFamily="Space Grotesk"
 						borderRadius="4px"
 						width="100%"
@@ -100,7 +99,7 @@ export const Contact = () => {
 										borderColor="rgba(255, 255, 255, 0.4)"
 										borderRadius="4px"
 										boxShadow="none"
-										color="rgba(255, 255, 255, 0.6)"
+										color="rgba(255, 255, 255, 0.8)"
 										fontSize="1rem"
 										padding="0 2rem"
 										_active={{

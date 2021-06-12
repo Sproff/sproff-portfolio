@@ -33,7 +33,7 @@ export const Projects = () => {
 							<Box
 								key={project.id}
 								bgColor="#09090A"
-								color="#fff"
+								color="rgba(255, 255, 255, 0.8)"
 								fontFamily="Space Grotesk"
 								borderRadius="4px"
 								height="264px"
@@ -46,7 +46,7 @@ export const Projects = () => {
 							>
 								<Box>
 									<Text
-										color="rgba(255, 255, 255, 0.6)"
+										color="rgba(255, 255, 255, 0.8)"
 										fontWeight="700"
 										fontSize="1.05rem"
 										textTransform="uppercase"
@@ -56,7 +56,7 @@ export const Projects = () => {
 									<Text
 										fontSize=".9rem"
 										lineHeight="1.8"
-										color="rgba(255, 255, 255, 0.6)"
+										color="rgba(255, 255, 255, 0.8)"
 										fontWeight="300"
 									>
 										{project.tools}
@@ -64,25 +64,25 @@ export const Projects = () => {
 									<br />
 									<Text
 										fontSize=".95rem"
-										lineHeight="1.8"
-										color="rgba(255, 255, 255, 0.6)"
+										lineHeight="2"
+										color="rgba(255, 255, 255, 0.8)"
 										fontWeight="300"
 									>
 										{project.description}
 									</Text>
 								</Box>
 
-								<Box color="rgba(255, 255, 255, 0.6)" fontWeight="300">
+								<Box color="rgba(255, 255, 255, 0.8)" fontWeight="300">
 									<HStack>
 										<Link href={project.live_link} isExternal boxShadow="none">
 											<Flex
 												alignItems="center"
-												color="rgba(255, 255, 255, 0.6)"
+												color="rgba(255, 255, 255, 0.8)"
 												fontSize=".85rem"
 											>
 												<AiFillEye
 													style={{
-														color: "rgba(255, 255, 255, 0.72)",
+														color: "rgba(255, 255, 255, 0.8)",
 														marginRight: ".3rem",
 													}}
 												/>
@@ -92,21 +92,25 @@ export const Projects = () => {
 
 										<Spacer />
 
-										<Link href={project.github_link}>
-											<Flex
-												alignItems="center"
-												color="rgba(255, 255, 255, 0.6)"
-												fontSize=".85rem"
-											>
-												<FaCodeBranch
-													style={{
-														color: "rgba(255, 255, 255, 0.72)",
-														marginRight: ".3rem",
-													}}
-												/>
-												<Text>Code</Text>
-											</Flex>
-										</Link>
+										{!project.isDisabled ? (
+											<Link href={project.github_link}>
+												<Flex
+													alignItems="center"
+													color="rgba(255, 255, 255, 0.8)"
+													fontSize=".85rem"
+												>
+													<FaCodeBranch
+														style={{
+															color: "rgba(255, 255, 255, 0.8)",
+															marginRight: ".3rem",
+														}}
+													/>
+													<Text>Code</Text>
+												</Flex>
+											</Link>
+										) : (
+											""
+										)}
 									</HStack>
 								</Box>
 							</Box>

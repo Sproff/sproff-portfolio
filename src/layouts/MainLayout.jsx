@@ -7,7 +7,7 @@ import { BackgroundImage } from "../components/common/BackgroundImage";
 
 export const MainLayout = ({ children, isMobile, isProject }) => {
 	return (
-		<Box w="100%" height="100vh" bgColor="#000" overflow="hidden">
+		<Box w="100%" bgColor="#000" overflow="hidden">
 			<Box>
 				<BackgroundImage />
 			</Box>
@@ -16,7 +16,7 @@ export const MainLayout = ({ children, isMobile, isProject }) => {
 				<MobileNavBar />
 			</Box>
 
-			<HStack height="calc(100vh - 10%)">
+			<HStack height="calc(100vh - 12%)">
 				<Box
 					w={["0", "0", "0", "6%"]}
 					borderRight={["none", "none", "none", "2px solid #555"]}

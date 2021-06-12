@@ -40,7 +40,8 @@ export const Resume = () => {
 								</Box>
 								<Box>
 									<a
-										href="https://g.com"
+										href="d"
+										download="sam-ogunleye-resume"
 										isexternal="true"
 										style={{
 											boxShadow: "none",

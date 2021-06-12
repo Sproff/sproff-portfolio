@@ -18,6 +18,10 @@ body {
 	border: 3px solid #ef3e07;
 }
 
+.selected .active_mobile_border {
+	border: none;
+}
+
 .selected .vertical_line {
 	background-color: #ef3e07;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Image } from "@chakra-ui/react";
+
 import bgImg from "../../assets/images/bg_img_new.png";
 
 export const BackgroundImage = () => {
@@ -9,7 +10,7 @@ export const BackgroundImage = () => {
 				src={bgImg}
 				position="fixed"
 				right="0"
-				opacity="0.3"
+				opacity="0.2"
 				height="100vh"
 				alt="Background Image"
 			/>

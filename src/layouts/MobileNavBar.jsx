@@ -18,13 +18,13 @@ export const MobileNavBar = () => {
 				width="100%"
 				bgColor="#000"
 				zIndex="3"
-				padding="2.3rem 0 2rem 0"
+				padding="1.5rem 0"
 				borderTop="1px solid rgba(255, 255, 255, 0.3)"
 			>
 				<NavLink exact to="/" activeClassName="selected">
 					<Box cursor="pointer">
 						<Box
-							className="active_border"
+							className="active_mobile_border"
 							// border="3px solid rgba(255, 255, 255, 0.3)"
 							borderRadius="8px"
 							p=".3rem .5rem"
@@ -48,7 +48,7 @@ export const MobileNavBar = () => {
 				<NavLink to="/projects" activeClassName="selected">
 					<Box cursor="pointer">
 						<Box
-							className="active_border"
+							className="active_mobile_border"
 							// border="3px solid rgba(255, 255, 255, 0.3)"
 							borderRadius="8px"
 							p=".3rem .5rem"
@@ -72,7 +72,7 @@ export const MobileNavBar = () => {
 				<NavLink to="/resume" activeClassName="selected">
 					<Box cursor="pointer" position="relative">
 						<Box
-							className="active_border"
+							className="active_mobile_border"
 							// border="3px solid rgba(255, 255, 255, 0.3)"
 							borderRadius="8px"
 							p=".3rem .5rem"
@@ -96,7 +96,7 @@ export const MobileNavBar = () => {
 				<NavLink to="/contact" activeClassName="selected">
 					<Box cursor="pointer" position="relative">
 						<Box
-							className="active_border"
+							className="active_mobile_border"
 							// border="3px solid rgba(255, 255, 255, 0.3)"
 							borderRadius="8px"
 							p=".3rem .5rem"

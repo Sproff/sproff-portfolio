@@ -90,7 +90,7 @@ export const Projects = () => {
 
 											<Spacer />
 
-											<Link href={project.github_link}>
+											<Link href={project.github_link} isPrivate={true}>
 												<Flex
 													alignItems="center"
 													color="rgba(255, 255, 255, 0.6)"
@@ -102,6 +102,7 @@ export const Projects = () => {
 															marginRight: ".3rem",
 														}}
 													/>
+
 													<Text>Code</Text>
 												</Flex>
 											</Link>

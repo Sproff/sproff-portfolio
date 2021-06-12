@@ -16,9 +16,9 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 export const Main = () => {
 	return (
 		<Box
-			height={["80vh", "80vh", "100vh", "100vh"]}
-			padding={["0", "0", "4.5rem", "2.5rem"]}
-			marginTop={["-4rem", "-4rem", "-4rem", "0"]}
+			// height={["80vh", "80vh", "100vh", "100vh"]}
+			padding={["0", "0", "0 4.5rem", "0 2.5rem"]}
+			// marginTop={["-4rem", "-4rem", "-4rem", "0"]}
 			display="flex"
 			w={["100%", "100%", "100%", "53%"]}
 		>
@@ -57,7 +57,7 @@ export const Main = () => {
 					</Text>
 				</Box>
 
-				<Box>
+				<Box m="1rem 0">
 					<Button
 						textDecoration="uppercase"
 						variant="outline"
@@ -74,8 +74,8 @@ export const Main = () => {
 				</Box>
 
 				<Box>
-					<HStack display={["block", "block", "block", "flex"]}>
-						<Box style={{ marginRight: "2rem" }}>
+					<HStack>
+						{/* <Box style={{ marginRight: "2rem" }}>
 							<Wrap
 								display={["flex", "flex", "flex", "flex"]}
 								justifyContent="center"
@@ -88,10 +88,25 @@ export const Main = () => {
 									/>
 								</WrapItem>
 							</Wrap>
-						</Box>
+						</Box> */}
 
 						<Box>
 							<HStack>
+								<Box style={{ marginRight: "2rem" }}>
+									<Wrap
+										display={["flex", "flex", "flex", "flex"]}
+										justifyContent="center"
+										my="1rem"
+									>
+										<WrapItem>
+											<Avatar
+												name="Samuel Ogunleye"
+												src="https://res.cloudinary.com/sproff/image/upload/v1622707029/Sproff/sam_dkzdkm.jpg"
+											/>
+										</WrapItem>
+									</Wrap>
+								</Box>
+
 								<Box style={{ marginRight: "1rem" }}>
 									<Link
 										href="https://github.com/Sproff"

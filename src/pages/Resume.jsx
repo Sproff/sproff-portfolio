@@ -3,6 +3,7 @@ import React from "react";
 import { BiDownload } from "react-icons/bi";
 import { MainLayout } from "../layouts/MainLayout";
 import { resume } from "../services/resume";
+import SamResume from "../assets/images/SAMUEL_OGUNLEYE.pdf";
 
 export const Resume = () => {
 	return (
@@ -40,7 +41,7 @@ export const Resume = () => {
 								</Box>
 								<Box>
 									<a
-										href="d"
+										href={SamResume}
 										download="sam-ogunleye-resume"
 										isexternal="true"
 										style={{

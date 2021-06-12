@@ -13,7 +13,7 @@ export const projects = [
 		title: "Startar",
 		tools: "React + Styled-Components + NodeJS + ExpressJS + MongoDB",
 		description:
-			"Startar is an exclusive community of the very best tech professional freelancers still in university and colleges.",
+			"A platform of tech professional freelancers in university and colleges.",
 		live_link: "https://startar.vercel.app",
 		github_link: "",
 		isPrivate: true,
@@ -23,7 +23,7 @@ export const projects = [
 		title: "Crypto App",
 		tools: "Html + Css + JS + Bootstrap",
 		description:
-			"This is a user interface of a crypto trading app. It has a user and an admin dashboards.",
+			"A user interface of a crypto trading app. It has a user and an admin dashboards.",
 		live_link: "https://mycryptotrade.netlify.app",
 		github_link: "",
 		isPrivate: false,
@@ -52,7 +52,7 @@ export const projects = [
 		title: "Google DSC-FUOYE",
 		tools: "Html + Css + JS + Bootstrap",
 		description:
-			"Developer Student Clubs is a G o o g l e Developers program for university students to learn mobile and web development skills.",
+			"A Google Developers program for university students to learn mobile and web development skills.",
 		live_link: "https://dsc-fuoye.com",
 		github_link: "",
 		isPrivate: true,

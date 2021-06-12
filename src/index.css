@@ -40,6 +40,22 @@ select:-webkit-autofill:focus {
 	transition: background-color 5000s ease-in-out 0s;
 }
 
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
 @media (max-width: 991px) {
 	.isMobile {
 		display: none;

@@ -10,7 +10,7 @@ export const BackgroundImage = () => {
 				src={bgImg}
 				position="fixed"
 				right="0"
-				opacity="0.2"
+				opacity="0.3"
 				height="100vh"
 				alt="Background Image"
 			/>

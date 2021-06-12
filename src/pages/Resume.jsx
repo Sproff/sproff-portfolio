@@ -104,7 +104,6 @@ export const Resume = () => {
 								lineHeight="1.8"
 								color="rgba(255, 255, 255, 0.5)"
 								fontWeight="300"
-								textAlign="justify"
 							>
 								Html, Css, JavaScript, Bootstrap, Chakra-UI, ReactJS, Styled
 								Components, NodeJS, ExpressJS, MongoDB, Heroku, Netlify, Vercel,
@@ -139,7 +138,6 @@ export const Resume = () => {
 											fontSize="1rem"
 											fontWeight="400"
 											color="rgba(255, 255, 255, 0.8)"
-											textAlign="justify"
 										>
 											{res.company.toUpperCase()} - <i>{res.role}</i>
 										</Text>

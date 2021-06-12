@@ -63,7 +63,7 @@ export const Projects = () => {
 									</Text>
 									<br />
 									<Text
-										fontSize=".85rem"
+										fontSize="1rem"
 										lineHeight="1.8"
 										color="rgba(255, 255, 255, 0.6)"
 										fontWeight="300"

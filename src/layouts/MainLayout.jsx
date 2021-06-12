@@ -16,7 +16,7 @@ export const MainLayout = ({ children, isMobile, isProject }) => {
 				<MobileNavBar />
 			</Box>
 
-			<HStack height="calc(100vh - 12%)">
+			<HStack height="calc(100vh - 10%)">
 				<Box
 					w={["0", "0", "0", "6%"]}
 					borderRight={["none", "none", "none", "2px solid #555"]}

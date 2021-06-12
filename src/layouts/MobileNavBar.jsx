@@ -14,7 +14,7 @@ export const MobileNavBar = () => {
 				display={["flex", "flex", "flex", "none"]}
 				position="fixed"
 				bottom="0"
-				height="12%"
+				height="10%"
 				width="100%"
 				bgColor="#000"
 				zIndex="999"

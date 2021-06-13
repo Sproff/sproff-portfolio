@@ -14,7 +14,7 @@ export const Resume = () => {
 					spacing={4}
 					padding={["1.5rem", "1.5rem", "1.5rem", "3rem"]}
 					mb={["1.5rem", "1.5rem", "1.5rem", "1rem"]}
-					mt={["1.5rem", "1.5rem", "1.5rem", "1rem"]}
+					mt={["3rem", "3rem", "3rem", "1rem"]}
 				>
 					<Box
 						bgColor="#09090A"

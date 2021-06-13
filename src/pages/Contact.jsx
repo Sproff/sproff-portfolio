@@ -36,7 +36,7 @@ export const Contact = () => {
 						width="100%"
 						padding="1.5rem"
 						mb={["1.5rem", "1.5rem", "1.5rem", "1rem"]}
-						mt={["1.5rem", "1.5rem", "1.5rem", "1rem"]}
+						mt={["3rem", "3rem", "3rem", "1rem"]}
 					>
 						<FormControl
 							onSubmit={handleSubmit}

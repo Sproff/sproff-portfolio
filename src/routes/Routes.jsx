@@ -10,6 +10,7 @@ import { Home } from "../pages/Home";
 import { Contact } from "../pages/Contact";
 import { Resume } from "../pages/Resume";
 import { Projects } from "../pages/Projects";
+import { SuccessMessage } from "../pages/SuccessMessage";
 
 export function useMediaQuery(query) {
 	const [matches, setMatches] = useState(false);
@@ -38,6 +39,9 @@ function Routes() {
 		<Router>
 			<ChakraProvider>
 				<Switch>
+					<Route path="/success">
+						<SuccessMessage />
+					</Route>
 					<Route path="/contact">
 						<Contact />
 					</Route>

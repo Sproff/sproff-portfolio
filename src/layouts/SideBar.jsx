@@ -40,10 +40,10 @@ export const SideBar = () => {
 						<Box cursor="pointer" position="relative">
 							<Box
 								position="absolute"
-								top={["-85px", "-85px", "-130px", "-120px"]}
+								top={["-85px", "-85px", "-130px", "-90px"]}
 								left="16px"
 								width="3px"
-								height={["85px", "85px", "130px", "120px"]}
+								height={["85px", "85px", "130px", "90px"]}
 								backgroundColor="rgba(255, 255, 255, 0.3)"
 								className="vertical_line"
 							/>
@@ -71,10 +71,10 @@ export const SideBar = () => {
 						<Box cursor="pointer" position="relative">
 							<Box
 								position="absolute"
-								top={["-85px", "-85px", "-130px", "-120px"]}
+								top={["-85px", "-85px", "-130px", "-90px"]}
 								left="16px"
 								width="3px"
-								height={["85px", "85px", "130px", "120px"]}
+								height={["85px", "85px", "130px", "90px"]}
 								backgroundColor="rgba(255, 255, 255, 0.3)"
 								className="vertical_line"
 							/>

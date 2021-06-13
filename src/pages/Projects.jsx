@@ -19,7 +19,8 @@ export const Projects = () => {
 			<MainLayout isMobile={true}>
 				<Box
 					padding={["1.5rem", "1.5rem", "1.5rem", "3rem"]}
-					mb={["4.3rem", "4.3rem", "4.3rem", "1rem"]}
+					mb={["1.5rem", "1.5rem", "1.5rem", "1rem"]}
+					mt={["1.5rem", "1.5rem", "1.5rem", "1rem"]}
 				>
 					<SimpleGrid columns={["1", "1", "2", "2"]} spacing={4} zIndex="99">
 						{projects.map((project) => {

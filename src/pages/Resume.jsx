@@ -3,7 +3,7 @@ import React from "react";
 import { BiDownload } from "react-icons/bi";
 import { MainLayout } from "../layouts/MainLayout";
 import { resume } from "../services/resume";
-import SamResume from "../assets/images/SAMUEL_OGUNLEYE.pdf";
+// import SamResume from "../assets/images/SAMUEL_OGUNLEYE.pdf";
 
 export const Resume = () => {
 	return (
@@ -14,6 +14,7 @@ export const Resume = () => {
 					spacing={4}
 					padding={["1.5rem", "1.5rem", "1.5rem", "3rem"]}
 					mb={["1.5rem", "1.5rem", "1.5rem", "1rem"]}
+					mt={["1.5rem", "1.5rem", "1.5rem", "1rem"]}
 				>
 					<Box
 						bgColor="#09090A"
@@ -22,7 +23,7 @@ export const Resume = () => {
 						borderRadius="4px"
 						width="100%"
 						padding="1.5rem"
-						marginBottom="3rem"
+						// marginBottom="3rem"
 					>
 						<Box>
 							<Box display="flex" justifyContent="space-between">
@@ -45,8 +46,8 @@ export const Resume = () => {
 								</Box>
 								<Box>
 									<a
-										href={SamResume}
-										download="sam-ogunleye-resume"
+										href="http://bit.ly/SAMUEL_OGUNLEYE_CV"
+										download="Samuel_Ogunleye_Resume"
 										isexternal="true"
 										style={{
 											boxShadow: "none",

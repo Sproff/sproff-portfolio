@@ -7,7 +7,7 @@ export const Loader = () => {
 			<Box>
 				<svg
 					className="loader"
-					width="500"
+					width="300"
 					height="318"
 					viewBox="0 0 174 38"
 					fill="none"

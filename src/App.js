@@ -1,12 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Loader } from "./components/common/Loader";
 import Routes from "./routes/Routes";
 
-function App() {
-  return (
-    <div className="App">
-      <Routes />
-    </div>
-  );
-}
+const App = () => {
+	const [loader, setLoader] = useState(true);
+
+	// useEffect(() => {
+	// 	setLoader(true);
+	// }, []);
+
+	useEffect(() => {
+		setTimeout(() => {
+			setLoader(false);
+		}, 9000);
+	}, []);
+
+	// useEffect(() => {
+	//   Aos.init({ duration: 2000 });
+	// }, []);
+
+	return <>{loader === false ? <Routes /> : <Loader />}</>;
+};
 
 export default App;

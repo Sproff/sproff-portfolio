@@ -45,9 +45,8 @@ export const Resume = () => {
 								</Box>
 								<Box>
 									<a
-										href="http://bit.ly/SAMUEL_OGUNLEYE"
-										publicId="Sproff/SAMUEL_OGUNLEYE_-_Frontend_Developer_c7v67s.pdf"
-										download="Samuel_Ogunleye_Resume"
+										href="https://bit.ly/SAMUEL__OGUNLEYE__CV"
+										download="SAMUEL_OGUNLEYE_CV"
 										isexternal="true"
 										style={{
 											boxShadow: "none",

@@ -11,18 +11,18 @@ export const resume = [
 			"Redesigned the user interface with ReactJS and TypeScript to enhance user experience.",
 		],
 	},
-
 	{
 		id: 2,
-		company: "Tutors Learners Wordwide",
-		role: "Junior Web Developer",
+		company: "TLW",
+		role: "Web Developer",
 		started: "September 2020",
 		ended: "May 2021",
 		description:
 			"I worked with designers to covert ready-made UIs into usable code.",
 		achievements: [
-			"Converted AdobeXD UI designs into usable code.",
-			"Worked closely with designers to deliver pixel perfect UIs with responsive web design principles. This improved user experience and increased user retention on the sites as judged by analytics.",
+			"Converted AdobeXD UI designs into reusable code using ReactJS.",
+      "Worked closely with designers to deliver pixel perfect UIs with responsive web design principles and state management. This improved user experience and enhanced code readability.",
+      "Built reusable API using NodeJS.",
 			"Made use of tools like Trello for task management and feedback.",
 		],
 	},

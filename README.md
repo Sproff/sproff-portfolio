@@ -1,6 +1,6 @@
 # Sproff's Portfolio
 
-This is built using ReactJS + Chakra-UI
+This is built using ReactJS + Chakra-UI.
 
 ## License
 

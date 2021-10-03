@@ -4,7 +4,7 @@ export const resume = [
 		company: "Ekioja",
 		role: "Frontend Developer",
 		started: "April 2021",
-		ended: "",
+		ended: "July 2021",
 		description:
 			"I joined the Ekioja team to build an online marketplace for African brands.",
 		achievements: [

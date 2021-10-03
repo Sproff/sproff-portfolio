@@ -111,7 +111,7 @@ export const Resume = () => {
 								color="rgba(255, 255, 255, 0.5)"
 								fontWeight="300"
 							>
-								Html, Css, JavaScript, Bootstrap, Chakra-UI, ReactJS, Styled
+								Html, Css, JavaScript, Bootstrap, Chakra-UI, ReactJS, Redux, Styled
 								Components, NodeJS, ExpressJS, MongoDB, Heroku, Netlify, Vercel,
 								Git, GitHub
 							</Text>

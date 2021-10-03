@@ -10,8 +10,17 @@ export const projects = [
 		github_link: "https://github.com/Sproff/bimals-closet",
 		isDisabled: false,
 	},
-	{
+  {
 		id: 2,
+		title: "GitHub User Search",
+		tools: "React + Chakra-UI + Redux + GitHub API",
+		description: "A platform for searching github users.",
+		live_link: "https://github-user-search-redux.vercel.app",
+		github_link: "https://github.com/Sproff/github-user-search-redux",
+		isDisabled: false,
+	},
+	{
+		id: 3,
 		title: "Startar",
 		tools: "React + Styled-Components + NodeJS + ExpressJS + MongoDB",
 		description: "Tech platform for university freelancers.",
@@ -20,7 +29,7 @@ export const projects = [
 		isDisabled: true,
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "Crypto App",
 		tools: "Html + Css + JS + Bootstrap",
 		description: "Crypto trading app. It has user & admin dashboards.",
@@ -29,7 +38,7 @@ export const projects = [
 		isDisabled: FaTwitterSquare,
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "Studiotime Clone",
 		tools: "Html + Css + JS + Bootstrap",
 		description: "An online community to rent music studios.",
@@ -37,15 +46,15 @@ export const projects = [
 		github_link: "https://github.com/Sproff/Studiotime",
 		isDisabled: false,
 	},
-	{
-		id: 5,
-		title: "New Movieshow",
-		tools: "Html + Css + JS + MovieDb Api",
-		description: "An app where you can see the latest movies.",
-		live_link: "https://newmovieshow.netlify.app",
-		github_link: "https://github.com/Sproff/MovieAPI",
-		isDisabled: false,
-	},
+	// {
+	// 	id: 6,
+	// 	title: "New Movieshow",
+	// 	tools: "Html + Css + JS + MovieDb Api",
+	// 	description: "An app where you can see the latest movies.",
+	// 	live_link: "https://newmovieshow.netlify.app",
+	// 	github_link: "https://github.com/Sproff/MovieAPI",
+	// 	isDisabled: false,
+	// },
 	{
 		id: 6,
 		title: "Google DSC-FUOYE",

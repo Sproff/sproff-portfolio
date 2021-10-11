@@ -29,7 +29,7 @@ export const Contact = () => {
 					padding={["1.5rem", "1.5rem", "1.5rem", "3rem"]}
 				>
 					<Box
-						bgColor="#09090A"
+						bgColor="#181616"
 						color="rgba(255, 255, 255, 0.8)"
 						fontFamily="Space Grotesk"
 						borderRadius="4px"

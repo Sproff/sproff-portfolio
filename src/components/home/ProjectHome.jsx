@@ -32,7 +32,7 @@ export const Projects = () => {
 						return (
 							<Box
 								key={project.id}
-								bgColor="#09090A"
+								bgColor="#181616"
 								color="rgba(255, 255, 255, 0.8)"
 								fontFamily="Space Grotesk"
 								borderRadius="4px"

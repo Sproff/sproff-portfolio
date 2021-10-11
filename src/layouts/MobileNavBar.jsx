@@ -16,7 +16,7 @@ export const MobileNavBar = () => {
 				bottom="0"
 				height="12%"
 				width="100%"
-				bgColor="#000"
+				bgColor="#1a1919"
 				zIndex="999"
 				padding="1.5rem 0"
 				borderTop="1px solid rgba(255, 255, 255, 0.3)"

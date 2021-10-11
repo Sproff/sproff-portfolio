@@ -16,7 +16,7 @@ export const Resume = () => {
 					mt={["3rem", "3rem", "3rem", "1rem"]}
 				>
 					<Box
-						bgColor="#09090A"
+						bgColor="#181616"
 						color="rgba(255, 255, 255, 0.8)"
 						fontFamily="Space Grotesk"
 						borderRadius="4px"
@@ -111,7 +111,7 @@ export const Resume = () => {
 								color="rgba(255, 255, 255, 0.5)"
 								fontWeight="300"
 							>
-								Html, Css, JavaScript, Bootstrap, Chakra-UI, ReactJS, Redux, Styled
+								Html, Css, JavaScript, Bootstrap, Chakra-UI, ReactJS, NextJS, Redux, Styled
 								Components, NodeJS, ExpressJS, MongoDB, Heroku, Netlify, Vercel,
 								Git, GitHub
 							</Text>

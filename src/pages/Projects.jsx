@@ -27,7 +27,7 @@ export const Projects = () => {
 							return (
 								<Box
 									key={project.id}
-									bgColor="#09090A"
+									bgColor="#181616"
 									color="#fff"
 									fontFamily="Space Grotesk"
 									borderRadius="4px"

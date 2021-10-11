@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 export const SuccessMessage = () => {
 	return (
-		<Box w="100%" bgColor="#000" height="100vh" overflow="hidden">
+		<Box w="100%"height="100vh" overflow="hidden">
 			<Box display="flex" justifyContent="center" alignItems="center" h="100vh">
 				<Box
-					background="rgba(204, 204, 204, 0.05)"
+					background="#181616"
 					padding={["1rem", "1rem", "3rem", "4rem"]}
 				>
 					<Box

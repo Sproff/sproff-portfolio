@@ -92,7 +92,7 @@ export const Main = () => {
 										<WrapItem>
 											<Avatar
 												name="Samuel Ogunleye"
-												src="https://res.cloudinary.com/sproff/image/upload/v1622707029/Sproff/sam_dkzdkm.jpg"
+												src="https://res.cloudinary.com/sproff/image/upload/Sproff/sam_u6e4sc.jpg"
 											/>
 										</WrapItem>
 									</Wrap>

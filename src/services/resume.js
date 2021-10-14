@@ -8,7 +8,8 @@ export const resume = [
 		description:
 			"I joined the Ekioja team to build an online marketplace for African brands.",
 		achievements: [
-			"Redesigned the user interface with ReactJS and TypeScript to enhance user experience.",
+			"Redesigned the Ekioja Marketplace user interfaces with ReactJS and TypeScript to enhance user experience.",
+			"Created different components on the vendor dashboard to improve performance using ReactJS.",
 		],
 	},
 	{

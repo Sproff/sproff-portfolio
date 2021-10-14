@@ -148,7 +148,7 @@ export const Main = () => {
 
 								<Box>
 									<a
-										href="https://www.linkedin.com/in/samuel-ogunleye-a87493194/"
+										href="https://www.linkedin.com/in/sam-ogunleye"
 										target="_blank"
 										rel="noreferrer"
 										boxShadow="none"

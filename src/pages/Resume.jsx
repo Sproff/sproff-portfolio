@@ -45,7 +45,7 @@ export const Resume = () => {
 								</Box>
 								<Box>
 									<a
-										href="https://bit.ly/SAMUEL__OGUNLEYE__CV"
+										href="https://res.cloudinary.com/sproff/image/upload/v1634633096/Sproff/SAMUEL_OGUNLEYE_CV-Frontend_Developer_ym6y7j.pdf"
 										download="SAMUEL_OGUNLEYE_CV"
 										isexternal="true"
 										style={{

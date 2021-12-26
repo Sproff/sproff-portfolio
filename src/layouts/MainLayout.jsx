@@ -5,7 +5,7 @@ import { MobileNavBar } from "./MobileNavBar";
 import { SideBar } from "./SideBar";
 // import { BackgroundImage } from "../components/common/BackgroundImage";
 
-export const MainLayout = ({ children, isMobile, isProject }) => {
+export const MainLayout = ({isMobile, isProject, children }) => {
 	return (
 		<Box
 			w="100%"
@@ -13,9 +13,7 @@ export const MainLayout = ({ children, isMobile, isProject }) => {
 			height={["100vh", "100vh", "100%", "100%"]}
 			overflow="hidden"
 		>
-			<Box>
-				{/* <BackgroundImage /> */}
-			</Box>
+			<Box>{/* <BackgroundImage /> */}</Box>
 
 			<Box>
 				<MobileNavBar />

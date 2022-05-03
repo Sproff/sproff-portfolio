@@ -1,5 +1,3 @@
-import { FaTwitterSquare } from "react-icons/fa";
-
 export const projects = [
 	{
 		id: 1,
@@ -10,7 +8,7 @@ export const projects = [
 		github_link: "https://github.com/Sproff/bimals-closet",
 		isDisabled: false,
 	},
-  {
+	{
 		id: 2,
 		title: "GitHub User Search",
 		tools: "React + Chakra-UI + Redux + GitHub API",
@@ -19,48 +17,31 @@ export const projects = [
 		github_link: "https://github.com/Sproff/github-user-search-redux",
 		isDisabled: false,
 	},
-	// {
-	// 	id: 3,
-	// 	title: "Startar",
-	// 	tools: "React + Styled-Components + NodeJS + ExpressJS + MongoDB",
-	// 	description: "Tech platform for university freelancers.",
-	// 	live_link: "https://startar.vercel.app",
-	// 	github_link: "",
-	// 	isDisabled: true,
-	// },
+
 	{
 		id: 3,
+		title: "My ChatBot",
+		tools: "React + Redux + TailwindCSS + React Testing Library",
+		description: "Simple ChatBot.",
+		live_link: "https://my-chatbot.vercel.app",
+		github_link: "https://github.com/Sproff/my-chatbot",
+		isDisabled: false,
+	},
+	{
+		id: 4,
+		title: "Monially",
+		tools: "React + Chakra-UI",
+		description: "Monially is a lending app designed with the intention of making the lending process easy.",
+		live_link: "https://monially.com",
+		github_link: "",
+		isDisabled: true,
+	},
+	{
+		id: 5,
 		title: "Crypto App",
 		tools: "Html + Css + JS + Bootstrap",
 		description: "Crypto trading app. It has user & admin dashboards.",
 		live_link: "https://mycryptotrade.netlify.app",
-		github_link: "",
-		isDisabled: FaTwitterSquare,
-	},
-	// {
-	// 	id: 5,
-	// 	title: "Studiotime Clone",
-	// 	tools: "Html + Css + JS + Bootstrap",
-	// 	description: "An online community to rent music studios.",
-	// 	live_link: "https://studiotime.netlify.app/",
-	// 	github_link: "https://github.com/Sproff/Studiotime",
-	// 	isDisabled: false,
-	// },
-	// {
-	// 	id: 6,
-	// 	title: "New Movieshow",
-	// 	tools: "Html + Css + JS + MovieDb Api",
-	// 	description: "An app where you can see the latest movies.",
-	// 	live_link: "https://newmovieshow.netlify.app",
-	// 	github_link: "https://github.com/Sproff/MovieAPI",
-	// 	isDisabled: false,
-	// },
-	{
-		id: 4,
-		title: "Google DSC-FUOYE",
-		tools: "Html + Css + JS + Bootstrap",
-		description: "Tech community",
-		live_link: "https://dsc-fuoye.com",
 		github_link: "",
 		isDisabled: true,
 	},

@@ -4,16 +4,12 @@ import { Loader } from "./components/common/Loader";
 import Routes from "./routes/Routes";
 
 const App = () => {
-	const [loader, setLoader] = useState(true);
-
-	// useEffect(() => {
-	// 	setLoader(true);
-	// }, []);
+	const [loader, setLoader] = useState(false);
 
 	useEffect(() => {
 		setTimeout(() => {
 			setLoader(false);
-		}, 9000);
+		}, 7000);
 	}, []);
 
 	return (

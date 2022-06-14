@@ -49,7 +49,7 @@ export const Main = () => {
 						width={["100%", "100%", "100%", "100%"]}
 						lineHeight="2.1"
 					>
-						I am a Frontend Developer who is passionate about solving problems
+						I am a Frontend Engineer who is passionate about solving problems
 						digitally by leveraging on best development tools and materials to
 						deliver pixel perfect and blazing fast interfaces.
 					</Text>
@@ -103,7 +103,9 @@ export const Main = () => {
 										href="https://github.com/Sproff"
 										target="_blank"
 										rel="noreferrer"
-										boxShadow="none"
+										style={{
+											boxShadow: "none",
+										}}
 									>
 										<Flex alignItems="center" color="rgba(255, 255, 255, 0.8)">
 											<FaGithub
@@ -127,7 +129,9 @@ export const Main = () => {
 										href="https://twitter.com/dev_sproff"
 										target="_blank"
 										rel="noreferrer"
-										boxShadow="none"
+										style={{
+											boxShadow: "none",
+										}}
 									>
 										<Flex alignItems="center" color="rgba(255, 255, 255, 0.8)">
 											<FaTwitter
@@ -151,7 +155,9 @@ export const Main = () => {
 										href="https://www.linkedin.com/in/sam-ogunleye"
 										target="_blank"
 										rel="noreferrer"
-										boxShadow="none"
+										style={{
+											boxShadow: "none",
+										}}
 									>
 										<Flex alignItems="center" color="rgba(255, 255, 255, 0.8)">
 											<FaLinkedin

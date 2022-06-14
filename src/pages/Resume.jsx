@@ -40,12 +40,12 @@ export const Resume = () => {
 										color="gba(255, 255, 255, 0.8)"
 										fontWeight="700"
 									>
-										Frontend Developer
+										Frontend Engineer
 									</Text>
 								</Box>
 								<Box>
 									<a
-										href="https://res.cloudinary.com/sproff/image/upload/v1634633096/Sproff/SAMUEL_OGUNLEYE_CV-Frontend_Developer_ym6y7j.pdf"
+										href="https://res.cloudinary.com/sproff/image/upload/v1655185101/Sproff/SAMUEL_OGUNLEYE_CV_gjymul.pdf"
 										download="SAMUEL_OGUNLEYE_CV"
 										isexternal="true"
 										style={{
@@ -77,7 +77,7 @@ export const Resume = () => {
 								color="rgba(255, 255, 255, 0.5)"
 								fontWeight="300"
 							>
-								Frontend developer, passionate and dedicated in bringing ideas
+								Frontend Engineer, passionate and dedicated in bringing ideas
 								from pixels to live scalable products. I develop responsive
 								applications with user experience as top priority. I’m always
 								ready to adapt according to project specifications irrespective
@@ -111,9 +111,10 @@ export const Resume = () => {
 								color="rgba(255, 255, 255, 0.5)"
 								fontWeight="300"
 							>
-								Html, Css, JavaScript, Bootstrap, Chakra-UI, ReactJS, Redux, NextJS, Styled
-								Components, NodeJS, ExpressJS, MongoDB, Heroku, Netlify, Vercel,
-								Git, GitHub
+								Html, Css, JavaScript/TypeScript, Bootstrap, Chakra-UI, Tailwind,
+								React.js, Redux, Next.js, Styled Components, Node.js,
+								Express.js, MongoDB, Heroku, Netlify, Vercel, Git, GitHub,
+								Trello, Jira.
 							</Text>
 
 							<Heading
@@ -138,7 +139,7 @@ export const Resume = () => {
 							</Heading>
 							{resume.map((res) => {
 								return (
-									<Box key={res.id}>
+									<Box key={res.company}>
 										<Text
 											mt="1rem"
 											fontSize="1rem"
@@ -172,7 +173,7 @@ export const Resume = () => {
 										>
 											{res.achievements.map((achievement) => {
 												return (
-													<span key={achievement.id}>
+													<span key={achievement}>
 														<span style={{ fontSize: "1rem" }}>&#8226;</span>{" "}
 														{achievement} <br />
 													</span>

@@ -50,6 +50,7 @@ export const Contact = () => {
 								<Input
 									type="name"
 									id="name"
+									name="name"
 									aria-required="true"
 									required
 									color="rgba(255, 255, 255, 0.4"
@@ -76,6 +77,7 @@ export const Contact = () => {
 								<Input
 									type="email"
 									id="email"
+									name="_replyto"
 									aria-required="true"
 									required
 									border="1px solid rgba(255, 255, 255, 0.4)"

@@ -30,21 +30,21 @@ export const projects = [
 	},
 	{
 		id: 4,
+		title: "SnapCash",
+		tools: "React + Animations",
+		description:
+			"SnapCash offers quick loans to meet urgent needs at competitive interest rates.",
+		live_link: "https://snapcash.ng",
+		github_link: "",
+		isDisabled: true,
+	},
+	{
+		id: 5,
 		title: "GitHub User Search",
 		tools: "React + Chakra-UI + Redux + GitHub API",
 		description: "A platform for searching github users.",
 		live_link: "https://github-user-search-redux.vercel.app",
 		github_link: "https://github.com/Sproff/github-user-search-redux",
-		isDisabled: false,
-	},
-	{
-		id: 5,
-		title: "Refine Starter Template",
-		tools: "React + Refine",
-		description:
-			"Simple and Accessible boilerplate with Refine, React framework.",
-		live_link: "https://refine-react-framework.vercel.app",
-		github_link: "https://github.com/Sproff/refine-react-framework",
 		isDisabled: false,
 	},
 	{

@@ -34,7 +34,7 @@ export const Main = () => {
 						fontSize={["2rem", "2rem", "1.7rem", "2rem"]}
 						fontWeight="700"
 					>
-						<span style={{ color: "#EF3E07" }}>Hello,</span> I’m
+						<span style={{ color: "rgb(226 101 62)" }}>Hello,</span> I’m
 						<br />
 						Samuel Ogunleye.
 					</Text>
@@ -61,16 +61,16 @@ export const Main = () => {
 							textDecoration="uppercase"
 							variant="outline"
 							border="3px solid"
-							borderColor="#EF3E07"
+							borderColor="rgb(226 101 62)"
 							boxShadow="none"
-							color="#EF3E07"
+							color="rgb(226 101 62)"
 							fontFamily="Space Grotesk"
 							fontSize={["1rem", "1rem", "1rem", "1.2rem"]}
 							padding="0 2rem"
-							_active={{ backgroundColor: "#EF3E07" }}
+							_active={{ backgroundColor: "rgb(226 101 62)" }}
 							_focus={{ boxShadow: "none" }}
 							_hover={{
-								backgroundColor: "#EF3E07",
+								backgroundColor: "rgb(226 101 62)",
 								color: "rgba(255, 255, 255, 0.8)",
 							}}
 						>

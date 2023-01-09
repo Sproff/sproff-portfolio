@@ -14,7 +14,7 @@ const App = () => {
 
 	return (
 		<>
-			{loader === false ? <Routes /> : <Loader />}
+			{loader ? <Loader /> : <Routes />}
 			<AnimatedCursor
 				innerSize={10}
 				outerSize={30}

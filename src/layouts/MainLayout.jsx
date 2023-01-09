@@ -3,18 +3,10 @@ import React from "react";
 import { Main } from "../components/home/Main";
 import { MobileNavBar } from "./MobileNavBar";
 import { SideBar } from "./SideBar";
-// import { BackgroundImage } from "../components/common/BackgroundImage";
 
-export const MainLayout = ({isMobile, isProject, children }) => {
+export const MainLayout = ({ isMobile, isProject, children }) => {
 	return (
-		<Box
-			w="100%"
-			// bgColor="#000"
-			height={["100vh", "100vh", "100%", "100%"]}
-			overflow="hidden"
-		>
-			<Box>{/* <BackgroundImage /> */}</Box>
-
+		<Box w="100%" height={["100vh", "100vh", "100%", "100%"]} overflow="hidden">
 			<Box>
 				<MobileNavBar />
 			</Box>

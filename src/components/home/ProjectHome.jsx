@@ -23,7 +23,7 @@ export const Projects = () => {
 
 			<Box padding={["2.5rem", "2.5rem", "2.5rem", "3rem"]}>
 				<SimpleGrid
-					columns={["1", "1", "2", "2"]}
+					columns={["1", "1", "2", "1", "2"]}
 					spacing={4}
 					mb="1rem"
 					zIndex="99"
@@ -32,7 +32,7 @@ export const Projects = () => {
 						return (
 							<Box
 								key={project.id}
-								bgColor="#181616"
+								bgColor="rgba(24, 22, 22, 0.5)"
 								color="rgba(255, 255, 255, 0.8)"
 								fontFamily="Space Grotesk"
 								borderRadius="4px"
@@ -43,6 +43,10 @@ export const Projects = () => {
 								flexDirection="column"
 								justifyContent="space-between"
 								zIndex="2"
+								_hover={{
+									transform: "scale(1.05)",
+									transition: "all .5s",
+								}}
 							>
 								<Box>
 									<Text
@@ -67,6 +71,7 @@ export const Projects = () => {
 										lineHeight="2"
 										color="rgba(255, 255, 255, 0.8)"
 										fontWeight="300"
+										opacity="0.6"
 									>
 										{project.description}
 									</Text>
@@ -74,11 +79,16 @@ export const Projects = () => {
 
 								<Box color="rgba(255, 255, 255, 0.8)" fontWeight="300">
 									<HStack>
-										<Link href={project.live_link} isExternal boxShadow="none">
+										<Link
+											href={project.live_link}
+											isExternal
+											_focus={{ outline: "none" }}
+										>
 											<Flex
 												alignItems="center"
 												color="rgba(255, 255, 255, 0.8)"
 												fontSize=".85rem"
+												_focusVisible={{ outline: "none" }}
 											>
 												<AiFillEye
 													style={{
@@ -93,11 +103,16 @@ export const Projects = () => {
 										<Spacer />
 
 										{!project.isDisabled ? (
-											<Link href={project.github_link}>
+											<Link
+												href={project.github_link}
+												_focus={{ outline: "none" }}
+												isExternal
+											>
 												<Flex
 													alignItems="center"
 													color="rgba(255, 255, 255, 0.8)"
 													fontSize=".85rem"
+													_focusVisible={{ outline: "none" }}
 												>
 													<FaCodeBranch
 														style={{
@@ -108,9 +123,7 @@ export const Projects = () => {
 													<Text>Code</Text>
 												</Flex>
 											</Link>
-										) : (
-											""
-										)}
+										) : null}
 									</HStack>
 								</Box>
 							</Box>

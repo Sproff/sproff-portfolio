@@ -27,7 +27,7 @@ export const Projects = () => {
 							return (
 								<Box
 									key={project.id}
-									bgColor="#181616"
+									bgColor="rgba(24, 22, 22, 0.5)"
 									color="#fff"
 									fontFamily="Space Grotesk"
 									borderRadius="4px"
@@ -38,6 +38,10 @@ export const Projects = () => {
 									flexDirection="column"
 									justifyContent="space-between"
 									zIndex="2"
+									_hover={{
+										transform: "scale(1.05)",
+										transition: "all .5s",
+									}}
 								>
 									<Box>
 										<Text
@@ -71,8 +75,8 @@ export const Projects = () => {
 										<HStack>
 											<Link
 												href={project.live_link}
+												_focus={{ outline: "none" }}
 												isExternal
-												boxShadow="none"
 											>
 												<Flex
 													alignItems="center"
@@ -92,7 +96,11 @@ export const Projects = () => {
 											<Spacer />
 
 											{!project.isDisabled ? (
-												<Link href={project.github_link}>
+												<Link
+													href={project.github_link}
+													_focus={{ outline: "none" }}
+													isExternal
+												>
 													<Flex
 														alignItems="center"
 														color="rgba(255, 255, 255, 0.8)"

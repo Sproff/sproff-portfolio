@@ -29,7 +29,7 @@ export const Contact = () => {
 					padding={["1.5rem", "1.5rem", "1.5rem", "3rem"]}
 				>
 					<Box
-						bgColor="#181616"
+						bgColor="rgba(24, 22, 22, 0.5)"
 						color="rgba(255, 255, 255, 0.8)"
 						fontFamily="Space Grotesk"
 						borderRadius="4px"
@@ -61,7 +61,7 @@ export const Contact = () => {
 										borderColor: "rgba(255, 255, 255, 0.4)",
 									}}
 									_focus={{
-										borderColor: "#EF3E07",
+										borderColor: "rgb(226 101 62)",
 										boxShadow: "none",
 									}}
 								/>
@@ -87,7 +87,7 @@ export const Contact = () => {
 										borderColor: "rgba(255, 255, 255, 0.4)",
 									}}
 									_focus={{
-										borderColor: "#EF3E07",
+										borderColor: "rgb(226 101 62)",
 										boxShadow: "none",
 									}}
 								/>
@@ -113,7 +113,7 @@ export const Contact = () => {
 										borderColor: "rgba(255, 255, 255, 0.4)",
 									}}
 									_focus={{
-										borderColor: "#EF3E07",
+										borderColor: "rgb(226 101 62)",
 										boxShadow: "none",
 									}}
 								/>
@@ -139,14 +139,14 @@ export const Contact = () => {
 									fontSize="1rem"
 									padding="0 2rem"
 									_active={{
-										backgroundColor: "#EF3E07",
+										backgroundColor: "rgb(226 101 62)",
 									}}
 									_focus={{
 										boxShadow: "none",
 									}}
 									_hover={{
-										borderColor: "#EF3E07",
-										backgroundColor: "#EF3E07",
+										borderColor: "rgb(226 101 62)",
+										backgroundColor: "rgb(226 101 62)",
 										boxShadow: "none",
 										color: "#fff",
 									}}

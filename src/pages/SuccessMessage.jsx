@@ -4,12 +4,9 @@ import { Link } from "react-router-dom";
 
 export const SuccessMessage = () => {
 	return (
-		<Box w="100%"height="100vh" overflow="hidden">
+		<Box w="100%" height="100vh" overflow="hidden">
 			<Box display="flex" justifyContent="center" alignItems="center" h="100vh">
-				<Box
-					background="#181616"
-					padding={["1rem", "1rem", "3rem", "4rem"]}
-				>
+				<Box background="rgba(24, 22, 22, 0.5)" padding={["1rem", "1rem", "3rem", "4rem"]}>
 					<Box
 						color="rgba(204, 204, 204, 0.5)"
 						textAlign="center"
@@ -31,21 +28,21 @@ export const SuccessMessage = () => {
 								mb={["0", "1rem", "1rem", "1rem"]}
 								textDecoration="uppercase"
 								variant="outline"
-								borderColor="#EF3E07"
+								borderColor="rgb(226 101 62)"
 								borderRadius="4px"
 								boxShadow="none"
-								color="#EF3E07"
+								color="rgb(226 101 62)"
 								fontSize="1rem"
 								padding="0 2rem"
 								_active={{
-									backgroundColor: "#EF3E07",
+									backgroundColor: "rgb(226 101 62)",
 								}}
 								_focus={{
 									boxShadow: "none",
 								}}
 								_hover={{
-									borderColor: "#EF3E07",
-									backgroundColor: "#EF3E07",
+									borderColor: "rgb(226 101 62)",
+									backgroundColor: "rgb(226 101 62)",
 									boxShadow: "none",
 									color: "#fff",
 								}}

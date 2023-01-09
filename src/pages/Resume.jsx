@@ -1,10 +1,32 @@
-import { Box, Flex, Heading, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box, Flex, Link, SimpleGrid, Text } from "@chakra-ui/react";
 import React from "react";
 import { BiDownload } from "react-icons/bi";
 import { MainLayout } from "../layouts/MainLayout";
-import { resume } from "../services/resume";
+// import { resume } from "../services/resume";
 
 export const Resume = () => {
+	const data = [
+		"React JS",
+		"Next JS",
+		"Redux",
+		"JavaScript",
+		"TypeScript",
+		"HTML5",
+		"CSS3",
+		"Bootstrap",
+		"Chakra-UI",
+		"TailwindCSS",
+		"Git",
+		"GraphQL",
+		"Responsive Design",
+		"Performance Optimization",
+		"Figma",
+		"Agile Development",
+	];
+
+	const resumeLink =
+		"https://drive.google.com/file/d/1LCamM4dtkkKuJDkL4-sbHK2dXXL8xr82/view?usp=sharing";
+
 	return (
 		<Box w="100%">
 			<MainLayout isMobile={true}>
@@ -16,13 +38,12 @@ export const Resume = () => {
 					mt={["3rem", "3rem", "3rem", "1rem"]}
 				>
 					<Box
-						bgColor="#181616"
+						bgColor="rgba(24, 22, 22, 0.5)"
 						color="rgba(255, 255, 255, 0.8)"
 						fontFamily="Space Grotesk"
 						borderRadius="4px"
 						width="100%"
 						padding="1.5rem"
-						// marginBottom="3rem"
 					>
 						<Box>
 							<Box display="flex" justifyContent="space-between">
@@ -44,13 +65,13 @@ export const Resume = () => {
 									</Text>
 								</Box>
 								<Box>
-									<a
-										href="https://res.cloudinary.com/sproff/image/upload/v1655185101/Sproff/SAMUEL_OGUNLEYE_CV_gjymul.pdf"
+									<Link
+										href={resumeLink}
 										download="SAMUEL_OGUNLEYE_CV"
-										isexternal="true"
 										style={{
 											boxShadow: "none",
 										}}
+										isExternal
 									>
 										<Flex
 											alignItems="center"
@@ -66,7 +87,7 @@ export const Resume = () => {
 											/>
 											<Text>Download</Text>
 										</Flex>
-									</a>
+									</Link>
 								</Box>
 							</Box>
 
@@ -74,7 +95,7 @@ export const Resume = () => {
 							<Text
 								fontSize="1rem"
 								lineHeight="2"
-								color="rgba(255, 255, 255, 0.5)"
+								color="rgba(255, 255, 255, 0.8)"
 								fontWeight="300"
 							>
 								Frontend Engineer, passionate and dedicated in bringing ideas
@@ -84,105 +105,53 @@ export const Resume = () => {
 								of stack.
 							</Text>
 
-							<Heading
-								as="h5"
-								size="sm"
-								mt="2rem"
-								color="rgba(255, 255, 255, 0.8)"
-								position="relative"
-								_after={{
-									content: `""`,
-									width: ["80%", "90%", "91%", "90%"],
-									height: "1px",
-									background: "rgba(255, 255, 255, 0.5)",
-									position: "absolute",
-									top: "12px",
-									right: "5px",
-									outline: "dashed",
-									outlineWidth: "thin",
-								}}
-							>
-								Skills{" "}
-							</Heading>
 							<Text
 								mt="1rem"
 								fontSize="1rem"
 								lineHeight="2"
-								color="rgba(255, 255, 255, 0.5)"
+								color="rgba(255, 255, 255, 0.8)"
 								fontWeight="300"
 							>
-								Html, Css, JavaScript/TypeScript, Bootstrap, Chakra-UI, Tailwind,
-								React.js, Redux, Next.js, Styled Components, Node.js,
-								Express.js, MongoDB, Heroku, Netlify, Vercel, Git, GitHub,
-								Trello, Jira.
+								As you'll see from my{" "}
+								<Link
+									href={resumeLink}
+									textDecoration="underline"
+									color="rgb(226, 101, 62)"
+									isExternal
+								>
+									resume
+								</Link>
+								, I've worked on a variety of projects, developing UI while
+								paying close attention to detail. I've also had the opportunity
+								to work with various frameworks such as React and Vue, while
+								constantly learning to improve my skillsets.
 							</Text>
+						</Box>
 
-							<Heading
-								as="h5"
-								size="sm"
-								mt="2rem"
-								color="rgba(255, 255, 255, 0.8)"
-								position="relative"
-								_after={{
-									content: `""`,
-									width: ["64%", "85%", "85%", "82%"],
-									height: "1px",
-									background: "rgba(255, 255, 255, 0.5)",
-									position: "absolute",
-									top: "12px",
-									right: "5px",
-									outline: "dashed",
-									outlineWidth: "thin",
-								}}
+						<Box mt="2rem">
+							<SimpleGrid
+								columns={["1", "1", "2", "3", "3"]}
+								spacing={6}
+								mb={["1.5rem", "1.5rem", "1.5rem", "1rem"]}
+								mt={["3rem", "3rem", "3rem", "1rem"]}
 							>
-								Experience{" "}
-							</Heading>
-							{resume.map((res) => {
-								return (
-									<Box key={res.company}>
-										<Text
-											mt="1rem"
-											fontSize="1rem"
+								{data.map((item) => {
+									return (
+										<Box
+											bg="rgba(24, 22, 22, 0.5)"
+											borderLeft="3px solid"
+											borderColor="rgb(226, 101, 62)"
+											p=".5rem"
+											textTransform="capitalize"
+											fontSize=".85rem"
 											fontWeight="600"
-											color="rgba(255, 255, 255, 0.8)"
+											w="max-content"
 										>
-											{res.company.toUpperCase()} - <i>{res.role}</i>
-										</Text>
-										<Text
-											color="rgba(255, 255, 255, 0.4)"
-											fontSize=".9rem"
-											fontWeight="300"
-										>
-											{res.started} - {!res.ended ? "Present" : res.ended}
-										</Text>
-										<Text
-											mt=".5rem"
-											color="rgba(255, 255, 255, 0.5)"
-											fontSize="1rem"
-											fontWeight="300"
-											lineHeight="2"
-										>
-											{res.description}
-										</Text>
-										<Text
-											mt="1rem"
-											color="rgba(255, 255, 255, 0.5)"
-											fontSize="1rem"
-											fontWeight="300"
-											lineHeight="2"
-										>
-											{res.achievements.map((achievement) => {
-												return (
-													<span key={achievement}>
-														<span style={{ fontSize: "1rem" }}>&#8226;</span>{" "}
-														{achievement} <br />
-													</span>
-												);
-											})}
-										</Text>
-									</Box>
-								);
-							})}
+											<Text>{item}</Text>
+										</Box>
+									);
+								})}
+							</SimpleGrid>
 						</Box>
 					</Box>
 				</SimpleGrid>

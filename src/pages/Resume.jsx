@@ -2,7 +2,6 @@ import { Box, Flex, Link, SimpleGrid, Text } from "@chakra-ui/react";
 import React from "react";
 import { BiDownload } from "react-icons/bi";
 import { MainLayout } from "../layouts/MainLayout";
-// import { resume } from "../services/resume";
 
 export const Resume = () => {
 	const data = [

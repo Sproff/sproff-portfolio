@@ -129,7 +129,7 @@ export const Resume = () => {
 
 						<Box mt="2rem">
 							<SimpleGrid
-								columns={["1", "1", "2", "3", "3"]}
+								columns={["1", "2", "3", "3", "3"]}
 								spacing={6}
 								mb={["1.5rem", "1.5rem", "1.5rem", "1rem"]}
 								mt={["3rem", "3rem", "3rem", "1rem"]}

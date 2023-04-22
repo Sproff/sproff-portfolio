@@ -10,7 +10,17 @@ export const projects = [
 	},
 	{
 		id: 2,
-		title: "Lendsqr",
+		title: "1aimyouthchurch",
+		tools: "Next.js + TypeScript + Chakra-UI + Strapi + MongoDB",
+		description:
+			"A Christian community that empowers and equips young people to live purposeful lives.",
+		live_link: "https://1aimyouthchurch.org",
+		github_link: "",
+		isDisabled: true,
+	},
+	{
+		id: 3,
+		title: "Lendsqr (V3)",
 		tools: "Next.js + TypeScript + TailwindCSS + GSAP",
 		description:
 			"Lendsqr is a lending-as-a-service fintech providing technology.",
@@ -20,23 +30,13 @@ export const projects = [
 	},
 
 	{
-		id: 3,
+		id: 4,
 		title: "My ChatBot",
 		tools: "React.js + Redux + TailwindCSS + React Testing Library",
 		description: "Simple ChatBot.",
 		live_link: "https://my-chatbot.vercel.app",
 		github_link: "https://github.com/Sproff/my-chatbot",
 		isDisabled: false,
-	},
-	{
-		id: 4,
-		title: "Monially",
-		tools: "React.js + Chakra-UI",
-		description:
-			"Monially is a lending app designed with the intention of making the lending process easy.",
-		live_link: "https://monially.com",
-		github_link: "",
-		isDisabled: true,
 	},
 	{
 		id: 5,

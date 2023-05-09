@@ -10,16 +10,27 @@ export const projects = [
 	},
 	{
 		id: 2,
-		title: "1aimyouthchurch",
+		title: "Genomic Data Visualization",
 		tools: "Next.js + TypeScript + Chakra-UI + Strapi + MongoDB",
+		description:
+			"Genomic Data Visualization is a frontend repository for studying the genomics of breast cancer.",
+		live_link: "https://genomic-data-visualization.vercel.app",
+		github_link: "https://github.com/Sproff/genomic-data-visualization",
+		isDisabled: false,
+	},
+	{
+		id: 3,
+		title: "1aimyouthchurch",
+		tools: "Next.js + TypeScript + Chakra-UI + Strapi + Postgres",
 		description:
 			"A Christian community that empowers and equips young people to live purposeful lives.",
 		live_link: "https://1aimyouthchurch.org",
 		github_link: "",
 		isDisabled: true,
 	},
+
 	{
-		id: 3,
+		id: 4,
 		title: "Lendsqr (V3)",
 		tools: "Next.js + TypeScript + TailwindCSS + GSAP",
 		description:
@@ -28,23 +39,13 @@ export const projects = [
 		github_link: "",
 		isDisabled: true,
 	},
-
-	{
-		id: 4,
-		title: "My ChatBot",
-		tools: "React.js + Redux + TailwindCSS + React Testing Library",
-		description: "Simple ChatBot.",
-		live_link: "https://my-chatbot.vercel.app",
-		github_link: "https://github.com/Sproff/my-chatbot",
-		isDisabled: false,
-	},
 	{
 		id: 5,
-		title: "GitHub User Search",
-		tools: "React.js + Chakra-UI + Redux + GitHub API",
-		description: "A platform for searching github users.",
-		live_link: "https://github-user-search-redux.vercel.app",
-		github_link: "https://github.com/Sproff/github-user-search-redux",
+		title: "Cardify",
+		tools: "React.js + Redux + TailwindCSS + React Testing Library",
+		description: "The easy way to filter, search, sort, and organize your cards with a unique slug feature.",
+		live_link: "https://my-cardify.vercel.app",
+		github_link: "https://github.com/Sproff/cardify",
 		isDisabled: false,
 	},
 	{

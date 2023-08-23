@@ -2,20 +2,20 @@ export const projects = [
 	{
 		id: 1,
 		title: "Bimal's Closet",
-		tools: "React.js + Chakra-UI + NodeJS + ExpressJS + MongoDB",
+		tools: "Next.js + TypeScript + Chakra-UI + Zustand + NodeJS + ExpressJS + MongoDB",
 		description: "Clothing e-commerce web app.",
-		live_link: "https://bimals-closet.vercel.app/",
+		live_link: "https://bimals-closet.vercel.app",
 		github_link: "https://github.com/Sproff/bimals-closet",
 		isDisabled: false,
 	},
 	{
 		id: 2,
-		title: "Genomic Data Visualization",
-		tools: "Next.js + TypeScript + Chakra-UI + Strapi + MongoDB",
+		title: "OTPD for ALS",
+		tools: "Next.js + TypeScript + Chakra-UI + MongoDB",
 		description:
-			"Genomic Data Visualization is a frontend repository for studying the genomics of breast cancer.",
-		live_link: "https://genomic-data-visualization.vercel.app",
-		github_link: "https://github.com/Sproff/genomic-data-visualization",
+			"The ALS repository serves as a dedicated compilation of data exclusively tailored to Amyotrophic Lateral Sclerosis (ALS)",
+		live_link: "https://otpd4als.vercel.app",
+		github_link: "https://github.com/Sproff/open-targets-potential-drugs-for-amyotrophic-lateral-sclerosis",
 		isDisabled: false,
 	},
 	{

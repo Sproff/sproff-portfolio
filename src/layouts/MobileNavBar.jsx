@@ -2,7 +2,7 @@ import { Box, HStack, Text } from "@chakra-ui/react";
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import { FaFolderOpen, FaHome } from "react-icons/fa";
+import { FaFolderOpen, FaHome, FaMicrophone } from "react-icons/fa";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import { ImBlogger } from "react-icons/im";
 import { GoProject } from "react-icons/go";
@@ -35,6 +35,12 @@ export const MobileNavBar = () => {
 		},
 		{
 			id: 5,
+			icon: <FaMicrophone />,
+			title: "Podcast",
+			link: "/podcast",
+		},
+		{
+			id: 6,
 			icon: <BsFillChatDotsFill />,
 			title: "Contact",
 			link: "/contact",

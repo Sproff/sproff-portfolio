@@ -12,6 +12,7 @@ import { Resume } from "../pages/Resume";
 import { Projects } from "../pages/Projects";
 import { SuccessMessage } from "../pages/SuccessMessage";
 import Blog from "../pages/Blog";
+import Podcast from "../pages/Podcast";
 
 export function useMediaQuery(query) {
 	const [matches, setMatches] = useState(false);
@@ -51,6 +52,9 @@ function Routes() {
 					</Route>
 					<Route path="/resume">
 						<Resume />
+					</Route>
+					<Route path="/podcast">
+						<Podcast />
 					</Route>
 
 					{isPageWide ? (

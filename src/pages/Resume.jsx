@@ -24,7 +24,7 @@ export const Resume = () => {
 	];
 
 	const resumeLink =
-		"https://drive.google.com/file/d/1LCamM4dtkkKuJDkL4-sbHK2dXXL8xr82/view?usp=sharing";
+		"https://drive.google.com/file/d/1cO-2NAFYTUEg8TKoy0i3uebV2puGDu0K/view?usp=sharing";
 
 	return (
 		<Box w="100%">

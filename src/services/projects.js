@@ -10,27 +10,16 @@ export const projects = [
 	},
 	{
 		id: 2,
-		title: "OTPD for ALS",
-		tools: "Next.js + TypeScript + Chakra-UI + MongoDB",
+		title: "Stickerkeen",
+		tools: "Next.js + TypeScript + TailwindCSS",
 		description:
-			"The ALS repository serves as a dedicated compilation of data exclusively tailored to Amyotrophic Lateral Sclerosis (ALS)",
-		live_link: "https://otpd4als.vercel.app",
-		github_link: "https://github.com/Sproff/open-targets-potential-drugs-for-amyotrophic-lateral-sclerosis",
-		isDisabled: false,
-	},
-	{
-		id: 3,
-		title: "1aimyouthchurch",
-		tools: "Next.js + TypeScript + Chakra-UI + Strapi + Postgres",
-		description:
-			"A Christian community that empowers and equips young people to live purposeful lives.",
-		live_link: "https://1aimyouthchurch.org",
+			"Stickerkeen help companies source, create, store and send sticky promotional merchandise to anyone, anywhere in Africa.",
+		live_link: "https://stickerkeen.com",
 		github_link: "",
 		isDisabled: true,
 	},
-
 	{
-		id: 4,
+		id: 3,
 		title: "Lendsqr (V3)",
 		tools: "Next.js + TypeScript + TailwindCSS + GSAP",
 		description:
@@ -40,12 +29,23 @@ export const projects = [
 		isDisabled: true,
 	},
 	{
+		id: 4,
+		title: "1aimyouthchurch",
+		tools: "Next.js + TypeScript + Chakra-UI + Strapi + Postgres",
+		description:
+			"A Christian community that empowers and equips young people to live purposeful lives.",
+		live_link: "https://1aimyouthchurch.org",
+		github_link: "",
+		isDisabled: true,
+	},
+	{
 		id: 5,
-		title: "Cardify",
-		tools: "React.js + Redux + TailwindCSS + React Testing Library",
-		description: "The easy way to filter, search, sort, and organize your cards with a unique slug feature.",
-		live_link: "https://my-cardify.vercel.app",
-		github_link: "https://github.com/Sproff/cardify",
+		title: "OTPD for ALS",
+		tools: "Next.js + TypeScript + Chakra-UI + MongoDB",
+		description:
+			"The ALS repository serves as a dedicated compilation of data exclusively tailored to Amyotrophic Lateral Sclerosis (ALS)",
+		live_link: "https://otpd4als.vercel.app",
+		github_link: "https://github.com/Sproff/open-targets-potential-drugs-for-amyotrophic-lateral-sclerosis",
 		isDisabled: false,
 	},
 	{

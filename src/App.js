@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 import { Loader } from "./components/common/Loader";
 import Routes from "./routes/Routes";
 
@@ -15,6 +15,7 @@ const App = () => {
 	return (
 		<>
 			{loader ? <Loader /> : <Routes />}
+			{/*
 			<AnimatedCursor
 				innerSize={10}
 				outerSize={30}
@@ -23,6 +24,7 @@ const App = () => {
 				innerScale={0.7}
 				outerScale={5}
 			/>
+	*/}
 		</>
 	);
 };

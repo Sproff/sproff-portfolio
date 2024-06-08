@@ -23,10 +23,10 @@ export const Projects = () => {
 					mt={["3rem", "3rem", "3rem", "1rem"]}
 				>
 					<SimpleGrid columns={["1", "1", "2", "2"]} spacing={4} zIndex="99">
-						{projects.map((project) => {
+						{projects.map((project, idx) => {
 							return (
 								<Box
-									key={project.id}
+									key={idx}
 									bgColor="rgba(24, 22, 22, 0.5)"
 									color="#fff"
 									fontFamily="Space Grotesk"

@@ -4,6 +4,7 @@ import {
 	Button,
 	Flex,
 	HStack,
+	Link as CLink,
 	Text,
 	Wrap,
 	WrapItem,
@@ -49,9 +50,21 @@ export const Main = () => {
 						width={["100%", "100%", "100%", "100%"]}
 						lineHeight="2.1"
 					>
-						I am a Frontend Engineer who is passionate about solving problems
-						digitally by leveraging on best development tools and materials to
-						deliver pixel perfect and blazing fast interfaces.
+						I'm currently a Lead Frontend Engineer at{" "}
+						<CLink
+							href="https://stickerkeen.com"
+							style={{
+								boxShadow: "none",
+								color: "rgb(226 101 62)",
+							}}
+							isExternal
+						>
+							{" "}
+							Stickerkeen
+						</CLink>
+						, where I focus on improving the quality of frontend code by paying
+						close attention to details with the help of grade A softwares and
+						developer tools/processes.
 					</Text>
 				</Box>
 

@@ -1,17 +1,26 @@
 export const projects = [
 	{
-		id: 1,
-		title: "Bimal's Closet",
-		tools: "Next.js + TypeScript + Chakra-UI + Zustand + NodeJS + ExpressJS + MongoDB",
-		description: "Clothing e-commerce web app.",
-		live_link: "https://bimals-closet.vercel.app",
-		github_link: "https://github.com/Sproff/bimals-closet",
-		isDisabled: false,
+		title: "Afrilearn",
+		tools: "Next.js + TypeScript + Chakra-UI + Zustand",
+		description:
+			"Afrilearn is an educational platform that provides world-class education for Africans, anywhere.",
+		live_link: "https://www.myafrilearn.com",
+		github_link: "",
+		isDisabled: true,
 	},
 	{
-		id: 2,
+		title: "Lucid Games",
+		tools:
+			"Next.js + TypeScript + Chakra-UI + GSAP + NodeJS + ExpressJS + MongoDB",
+		description:
+			"Lucid Games is a versatile collection of card games played by various groups and categories of individuals.",
+		live_link: "https://www.lucidcardgames.com",
+		github_link: "",
+		isDisabled: true,
+	},
+	{
 		title: "Stickerkeen",
-		tools: "Next.js + TypeScript + TailwindCSS",
+		tools: "Next.js + TypeScript + TailwindCSS + Zustand",
 		description:
 			"Stickerkeen help companies source, create, store and send sticky promotional merchandise to anyone, anywhere in Africa.",
 		live_link: "https://stickerkeen.com",
@@ -19,17 +28,16 @@ export const projects = [
 		isDisabled: true,
 	},
 	{
-		id: 3,
-		title: "Lendsqr (V3)",
-		tools: "Next.js + TypeScript + TailwindCSS + GSAP",
+		title: "OTPD for ALS",
+		tools: "Next.js + TypeScript + Chakra-UI + NodeJS + ExpressJS + MongoDB",
 		description:
-			"Lendsqr is a lending-as-a-service fintech providing technology.",
-		live_link: "https://www.lendsqr.com",
-		github_link: "",
-		isDisabled: true,
+			"The OTPD is a bioinformatics platform with comprehensive data on Amyotrophic Lateral Sclerosis (ALS).",
+		live_link: "https://otpd4als.vercel.app",
+		github_link:
+			"https://github.com/Sproff/open-targets-potential-drugs-for-amyotrophic-lateral-sclerosis",
+		isDisabled: false,
 	},
 	{
-		id: 4,
 		title: "1aimyouthchurch",
 		tools: "Next.js + TypeScript + Chakra-UI + Strapi + Postgres",
 		description:
@@ -39,22 +47,12 @@ export const projects = [
 		isDisabled: true,
 	},
 	{
-		id: 5,
-		title: "OTPD for ALS",
-		tools: "Next.js + TypeScript + Chakra-UI + MongoDB",
-		description:
-			"The ALS repository serves as a dedicated compilation of data exclusively tailored to Amyotrophic Lateral Sclerosis (ALS)",
-		live_link: "https://otpd4als.vercel.app",
-		github_link: "https://github.com/Sproff/open-targets-potential-drugs-for-amyotrophic-lateral-sclerosis",
+		title: "Bimal's Closet",
+		tools:
+			"Next.js + TypeScript + Chakra-UI + Zustand + NodeJS + ExpressJS + MongoDB",
+		description: "Clothing e-commerce web app.",
+		live_link: "https://bimals-closet.vercel.app",
+		github_link: "https://github.com/Sproff/bimals-closet",
 		isDisabled: false,
-	},
-	{
-		id: 6,
-		title: "Crypto App",
-		tools: "Html + Css + JS + Bootstrap",
-		description: "Crypto trading app. It has user & admin dashboards.",
-		live_link: "https://mycryptotrade.netlify.app",
-		github_link: "",
-		isDisabled: true,
 	},
 ];

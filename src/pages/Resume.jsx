@@ -7,24 +7,23 @@ export const Resume = () => {
 	const data = [
 		"React JS",
 		"Next JS",
-		"Redux",
-		"JavaScript",
 		"TypeScript",
+		"JavaScript",
+		"Zustand",
+		"Redux",
+		"GraphQL",
+		"Apollo Client",
 		"HTML5",
 		"CSS3",
-		"Bootstrap",
-		"Chakra-UI",
-		"TailwindCSS",
 		"Git",
-		"GraphQL",
 		"Responsive Design",
-		"Performance Optimization",
+		"Performance",
 		"Figma",
 		"Agile Development",
 	];
 
 	const resumeLink =
-		"https://drive.google.com/file/d/11dyizKPvOYbHhOk5fz9B_ftOtoKLKdC2/view?usp=share_link";
+		"https://drive.google.com/file/d/12B7t728Ar-IvtV5ie188O4Tawj1HMwa6/view?usp=drive_link";
 
 	return (
 		<Box w="100%">
@@ -122,14 +121,14 @@ export const Resume = () => {
 								</Link>
 								, I've worked on a variety of projects, developing UI while
 								paying close attention to detail. I've also had the opportunity
-								to work with various frameworks such as React and Vue, while
+								to work with various frameworks such as React and Angular, while
 								constantly learning to improve my skillsets.
 							</Text>
 						</Box>
 
 						<Box mt="2rem">
 							<SimpleGrid
-								columns={["1", "2", "3", "3", "3"]}
+								columns={["2", "2", "3", "3", "3"]}
 								spacing={6}
 								mb={["1.5rem", "1.5rem", "1.5rem", "1rem"]}
 								mt={["3rem", "3rem", "3rem", "1rem"]}

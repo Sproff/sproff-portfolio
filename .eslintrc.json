@@ -31,6 +31,7 @@
 		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
 		"jsx-a11y/heading-has-content": "off",
 		"react/jsx-boolean-value": "off",
-		"import/prefer-default-export": "off"
+		"import/prefer-default-export": "off",
+		"react/no-array-index-key": "off"
 	}
 }

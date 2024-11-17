@@ -50,9 +50,9 @@ export const Main = () => {
 						width={["100%", "100%", "100%", "100%"]}
 						lineHeight="2.1"
 					>
-						I'm currently a Lead Frontend Engineer at{" "}
+						I'm currently a Senior Frontend Engineer at{" "}
 						<CLink
-							href="https://stickerkeen.com"
+							href="https://atrace.co"
 							style={{
 								boxShadow: "none",
 								color: "rgb(226 101 62)",
@@ -60,7 +60,7 @@ export const Main = () => {
 							isExternal
 						>
 							{" "}
-							Stickerkeen
+							aTrace
 						</CLink>
 						, where I focus on improving the quality of frontend code by paying
 						close attention to details with the help of grade A softwares and

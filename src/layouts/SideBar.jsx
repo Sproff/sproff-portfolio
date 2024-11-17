@@ -2,7 +2,7 @@ import { Box, Text, VStack } from "@chakra-ui/react";
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import { FaFolderOpen, FaHome, FaMicrophone } from "react-icons/fa";
+import { FaFolderOpen, FaHome } from "react-icons/fa";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import { ImBlogger } from "react-icons/im";
 
@@ -28,12 +28,6 @@ export const SideBar = () => {
 		},
 		{
 			id: 3,
-			icon: <FaMicrophone />,
-			title: "Podcast",
-			link: "/podcast",
-		},
-		{
-			id: 4,
 			icon: <BsFillChatDotsFill />,
 			title: "Contact",
 			link: "/contact",
